@@ -36,42 +36,32 @@ const textPositions = {
   'THAR ROXX': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '32%', left: '29%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '62.5%', left: '27%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '32%', left: '70%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '62.5%', left: '72%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
-      ],
-      'Ivory comfort kit': [
-        { top: '33%', left: '29.5%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '62.5%', left: '27.5%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '33%', left: '70%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '62.5%', left: '72%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } }
+        { top: '39%', left: '25%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+   
+        { top: '39%', left: '74%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+     
       ],
       'Sustainable comfort kit': [
-        { top: '34%', left: '29.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '63%', left: '27%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '34%', left: '70%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '63%', left: '72%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
+        { top: '39.5%', left: '25%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+   
+        { top: '39.5%', left: '73.7%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+    
       ]
     },
+
+  
     'Rear Row': {
       'Black comfort kit': [
-        { top: '38%', left: '29.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '65%', left: '27%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '65%', left: '72%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '38%', left: '70%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
-      ],
-      'Ivory comfort kit': [
-        { top: '39%', left: '30%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '67%', left: '28%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '67%', left: '72%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '39%', left: '70%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } }
+ 
+        { top: '71%', left: '30.8%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '71%', left: '68.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+     
       ],
       'Sustainable comfort kit': [
-        { top: '39%', left: '30%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '67%', left: '27%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '39%', left: '70%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '67%', left: '71%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
+    
+        { top: '70%', left: '31.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+
+        { top: '70%', left: '67.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
       ]
     }
   },
@@ -79,42 +69,34 @@ const textPositions = {
     'THAR': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '32%', left: '29%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '62.5%', left: '27%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '32%', left: '70%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '62.5%', left: '72%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
+        { top: '44%', left: '28%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+
+        { top: '44%', left: '71.8%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+       
       ],
-      'Ivory comfort kit': [
-        { top: '33%', left: '29.5%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '62.5%', left: '27.5%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '33%', left: '70%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '62.5%', left: '72%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } }
-      ],
+   
       'Sustainable comfort kit': [
-        { top: '34%', left: '29.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '63%', left: '27%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '34%', left: '70%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '63%', left: '72%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
+       { top: '44%', left: '27.6%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+      
+        { top: '44%', left: '72%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+     
       ]
     },
+
+
+  
     'Rear Row': {
       'Black comfort kit': [
-        { top: '38%', left: '29.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '65%', left: '27%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '65%', left: '72%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '38%', left: '70%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
-      ],
-      'Ivory comfort kit': [
-        { top: '39%', left: '30%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '67%', left: '28%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '67%', left: '72%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '39%', left: '70%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } }
+
+        { top: '56%', left: '32%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '56%', left: '68%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+
       ],
       'Sustainable comfort kit': [
-        { top: '39%', left: '30%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '67%', left: '27%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '39%', left: '70%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '67%', left: '71%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
+        // { top: '39%', left: '30%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '57%', left: '33%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        // { top: '39%', left: '70%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '57%', left: '66.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
       ]
     }
   },
@@ -123,42 +105,31 @@ const textPositions = {
   'XUV700': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '30%', left: '19%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '67.5%', left: '19%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '30%', left: '82%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '66.5%', left: '82%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
-      ],
-      'Ivory comfort kit': [
-        { top: '30%', left: '19%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '62.5%', left: '19%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '30%', left: '82%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '62.5%', left: '82%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } }
+        { top: '31.4%', left: '28.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        // { top: '67.5%', left: '19%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '31.4%', left: '74.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        // { top: '66.5%', left: '82%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
       ],
       'Sustainable comfort kit': [
-        { top: '39%', left: '23.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '72.5%', left: '21%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '40%', left: '75%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '72.5%', left: '77%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
+        { top: '31.5%', left: '28%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        // { top: '72.5%', left: '21%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '31.5%', left: '75%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        // { top: '72.5%', left: '77%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '33.5%', left: '19%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '69%', left: '19%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '70%', left: '81%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '34.5%', left: '82%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
+        { top: '61%', left: '35.2%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        // { top: '69%', left: '19%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        // { top: '70%', left: '81%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '61%', left: '68%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
       ],
-      'Ivory comfort kit': [
-        { top: '33.5%', left: '19%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '64%', left: '18%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '63%', left: '81%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '35%', left: '82%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } }
-      ],
+
       'Sustainable comfort kit': [
-        { top: '44%', left: '23.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '74.5%', left: '21%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '44.5%', left: '75%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '74.5%', left: '77%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
+        { top: '61%', left: '34%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        // { top: '74.5%', left: '21%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '61.5%', left: '69%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        // { top: '74.5%', left: '77%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
       ]
     }
   },
@@ -168,16 +139,16 @@ const textPositions = {
   'XUV3X0': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '32.9%', left: '26%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
+        { top: '35%', left: '27%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
         // { top: '66.5%', left: '20%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
         { top: '35.3%', left: '73%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
         // { top: '66.5%', left: '80%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
       ],
 
       'Sustainable comfort kit': [
-        { top: '33.5%', left: '25.3%', rotation: 0, fontSize: { desktop: 13, mobile: 9 } },
+        { top: '35%', left: '25.3%', rotation: 0, fontSize: { desktop: 13, mobile: 9 } },
         // { top: '69.5%', left: '27%', rotation: 0, fontSize: { desktop: 18, mobile: 9 } },
-        { top: '36%', left: '72.5%', rotation: 0, fontSize: { desktop: 13, mobile: 9 } },
+        { top: '35%', left: '72.5%', rotation: 0, fontSize: { desktop: 13, mobile: 9 } },
         // { top: '69%', left: '72%', rotation: 0, fontSize: { desktop: 18, mobile: 9 } }
       ]
     },
@@ -187,15 +158,15 @@ const textPositions = {
     'Rear Row': {
       'Black comfort kit': [
         // { top: '36.5%', left: '22%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '64%', left: '27.5%', rotation: -1, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '63%', left: '73%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '64%', left: '30.5%', rotation: -1, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '64%', left: '71%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
         // { top: '36.5%', left: '78%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
       ],
 
       'Sustainable comfort kit': [
-        { top: '62.5%', left: '29.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '64%', left: '30%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
         // { top: '57%', left: '23%', rotation: 0, fontSize: { desktop: 18, mobile: 9 } },
-        { top: '62.5%', left: '73.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '64%', left: '70%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
         // { top: '38%', left: '78%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
       ]
     }
@@ -207,42 +178,32 @@ const textPositions = {
   'SCORPIO N': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '34%', left: '20%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '66.5%', left: '20%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '34%', left: '77%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '66.5%', left: '77%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
+        { top: '35%', left: '24%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        // { top: '66.5%', left: '20%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '35%', left: '70%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        // { top: '66.5%', left: '77%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
       ],
-      'Ivory comfort kit': [
-        { top: '32.5%', left: '21%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '65%', left: '19%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '33%', left: '77%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '65%', left: '78%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } }
-      ],
+    
       'Sustainable comfort kit': [
-        { top: '34%', left: '20%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '67%', left: '18%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '34%', left: '78%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '65.5%', left: '78%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
+        { top: '35.5%', left: '24%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        // { top: '67%', left: '18%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '35.5%', left: '70.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        // { top: '65.5%', left: '78%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '38%', left: '20%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '69%', left: '20%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '69%', left: '76%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '38%', left: '76%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
+        // { top: '38%', left: '20%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '59%', left: '29%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '59%', left: '70.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        // { top: '38%', left: '76%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
       ],
-      'Ivory comfort kit': [
-        { top: '36%', left: '20%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '67%', left: '19%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '67%', left: '77.5%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '36%', left: '76%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } }
-      ],
+
       'Sustainable comfort kit': [
-        { top: '37.5%', left: '20%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '69%', left: '19%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '68%', left: '76%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '38%', left: '77%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
+        // { top: '37.5%', left: '20%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '59%', left: '27%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '59%', left: '71.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        // { top: '38%', left: '77%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
       ]
     }
   },
@@ -252,42 +213,32 @@ const textPositions = {
   'BOLERO NEO': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '35%', left: '24%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '67.5%', left: '22%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '35%', left: '73.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '67.5%', left: '76%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
+        { top: '36.3%', left: '27.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        // { top: '67.5%', left: '22%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '36%', left: '76%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        // { top: '67.5%', left: '76%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
       ],
-      'Ivory comfort kit': [
-        { top: '35%', left: '24.5%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '67%', left: '22%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '35%', left: '72%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '67%', left: '75%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } }
-      ],
+
       'Sustainable comfort kit': [
-        { top: '33%', left: '24%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '61%', left: '22%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '33.5%', left: '76%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '61%', left: '78%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
+        { top: '36%', left: '27%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        // { top: '61%', left: '22%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '36%', left: '76%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        // { top: '61%', left: '78%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '40.5%', left: '24%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '71%', left: '22%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '71%', left: '76%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '40.5%', left: '73%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
+        { top: '57%', left: '32%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        // { top: '71%', left: '22%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        // { top: '71%', left: '76%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '57%', left: '72%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
       ],
-      'Ivory comfort kit': [
-        { top: '41%', left: '24%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '70%', left: '22%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '70%', left: '74.5%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '41%', left: '72%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } }
-      ],
+
       'Sustainable comfort kit': [
-        { top: '37.5%', left: '24%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '64%', left: '22%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '64%', left: '77%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '38%', left: '75%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
+        // { top: '37.5%', left: '24%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '57%', left: '32.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '57%', left: '72.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        // { top: '38%', left: '75%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
       ]
     }
   },
@@ -297,42 +248,32 @@ const textPositions = {
   'BOLERO': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '26.5%', left: '22%', rotation: 0, fontSize: { desktop: 20, mobile: 10 } },
-        { top: '58%', left: '21%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '26.5%', left: '76.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '58%', left: '78%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
+        { top: '34.5%', left: '30%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        // { top: '58%', left: '21%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '34.5%', left: '70%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        // { top: '58%', left: '78%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
       ],
-      'Ivory comfort kit': [
-        { top: '25%', left: '20%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '57%', left: '19%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '25%', left: '76%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '57%', left: '77%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } }
-      ],
+
       'Sustainable comfort kit': [
-        { top: '27%', left: '21%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '59%', left: '19%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '27%', left: '75%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '59%', left: '78%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
+        { top: '34.8%', left: '29.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        // { top: '59%', left: '19%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '34.8%', left: '69.8%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        // { top: '59%', left: '78%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '31%', left: '22%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '61%', left: '21%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '61%', left: '78%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '31.5%', left: '76%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
+        // { top: '31%', left: '22%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '66%', left: '30%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '66%', left: '66.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        // { top: '31.5%', left: '76%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
       ],
-      'Ivory comfort kit': [
-        { top: '30%', left: '20%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '60%', left: '19%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '60%', left: '76.5%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } },
-        { top: '30%', left: '75%', rotation: 0, fontSize: { desktop: 16, mobile: 11 } }
-      ],
+
       'Sustainable comfort kit': [
-        { top: '31.5%', left: '21%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '62%', left: '19%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '62%', left: '77%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '31.5%', left: '75%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
+        // { top: '31.5%', left: '21%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '66%', left: '30%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '66%', left: '67%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        // { top: '31.5%', left: '75%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
       ]
     }
   }
