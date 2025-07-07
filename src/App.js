@@ -89,7 +89,7 @@ const textPositions = {
       'Black comfort kit': [
 
         { top: '56%', left: '32%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '56%', left: '68%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '56%', left: '66%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
 
       ],
       'Sustainable comfort kit': [
