@@ -47,7 +47,7 @@
   display: block;
   margin-top: 1rem;
   font-weight: bold;
-  font-size: 12px;
+  /* font-size: 12px; */
   color: #f8c165;
   transition: color 0.3s ease;
 }

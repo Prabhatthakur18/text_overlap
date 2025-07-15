@@ -16,13 +16,13 @@ const seatViews = ['Front Row', 'Rear Row'];
 const accessories = ['Black comfort kit','Sustainable comfort kit'];
 const fontStyles = [
   'Arial',
-  'Tahoma',
-  'Montserrat',
-  'Gabriola',
-  'Dancing Script',
-  'Blackadder ITC'
+  'Georgia',
+  'Segoe UI',
+  'Century Gothic',
+  'Impact',
+  'Verdana',
+  'Times New Roman'
 ];
-
 const textColors = [
   { name: 'Blue', value: '#005d8f' },
   { name: 'Black', value: '#000000' },
@@ -35,154 +35,154 @@ const textPositions = {
   'THAR ROXX': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '39%', left: '25%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '39%', left: '74%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '38%', left: '25%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '38%', left: '74%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '39.5%', left: '25%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '39.5%', left: '73.7%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '36.7%', left: '25%', rotation: 0, fontSize: { desktop: 15, mobile: 9 } },
+        { top: '36.7%', left: '74%', rotation: 0, fontSize: { desktop: 15, mobile: 9 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '71%', left: '30.8%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '71%', left: '68.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '68.5%', left: '30.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '68.5%', left: '68%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '70%', left: '31.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '70%', left: '67.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
+        { top: '68%', left: '30%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '68%', left: '68%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
       ]
     }
   },
   'THAR': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '44%', left: '28%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '44%', left: '71.8%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '44.5%', left: '28%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
+        { top: '44.5%', left: '72.8%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-       { top: '44%', left: '27.6%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '44%', left: '72%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+       { top: '44.5%', left: '28.4%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
+        { top: '44.5%', left: '71.5%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '56%', left: '32%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '56%', left: '66%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '56%', left: '33.6%', rotation: -0, fontSize: { desktop: 14, mobile: 10 } },
+        { top: '56%', left: '65%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '57%', left: '33%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '57%', left: '66.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
+        { top: '57.2%', left: '32.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '57.2%', left: '65.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } }
       ]
     }
   },
   'XUV700': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '31%', left: '28.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '31%', left: '74.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '30.8%', left: '28.2%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
+        { top: '31%', left: '75%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '31.5%', left: '28%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '31.5%', left: '75%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '30.5%', left: '28%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
+        { top: '31.5%', left: '75%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '61%', left: '35.2%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '61%', left: '68%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
+        { top: '61%', left: '35.3%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
+        { top: '61%', left: '71%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } }
       ],
       'Sustainable comfort kit': [
-        { top: '61%', left: '34%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '61.5%', left: '69%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '63%', left: '32.6%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '63%', left: '69.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
       ]
     }
   },
   'XUV3X0': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '35%', left: '27%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
-        { top: '35.3%', left: '73%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
+        { top: '34%', left: '27%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
+        { top: '35.5%', left: '73%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '35%', left: '25.3%', rotation: 0, fontSize: { desktop: 13, mobile: 9 } },
-        { top: '35%', left: '72.5%', rotation: 0, fontSize: { desktop: 13, mobile: 9 } },
+        { top: '35%', left: '25.3%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
+        { top: '35%', left: '72.5%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '64%', left: '30.5%', rotation: -1, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '64%', left: '71%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '63.5%', left: '28.5%', rotation: -1, fontSize: { desktop: 14, mobile: 10 } },
+        { top: '63.5%', left: '70%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '64%', left: '30%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '64%', left: '70%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '64%', left: '30%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
+        { top: '64%', left: '70%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
       ]
     }
   },
   'SCORPIO N': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '35%', left: '24%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '35%', left: '70%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '34%', left: '24%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
+        { top: '34%', left: '72.5%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '35.5%', left: '24%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '35.5%', left: '70.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '34.8%', left: '23%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
+        { top: '34.5%', left: '70.5%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '59%', left: '29%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '59%', left: '70.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '60%', left: '26.5%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
+        { top: '60%', left: '70.2%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '59%', left: '27%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '59%', left: '71.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '58.5%', left: '26.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '58.5%', left: '72%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
       ]
     }
   },
   'BOLERO NEO': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '36.3%', left: '27.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '36%', left: '76%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '36%', left: '27.5%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
+        { top: '35.8%', left: '76%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '36%', left: '27%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '36%', left: '76%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '36.4%', left: '27%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
+        { top: '36.4%', left: '75.5%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '57%', left: '32%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '57%', left: '72%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } }
+        { top: '57%', left: '32%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
+        { top: '57%', left: '72%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } }
       ],
       'Sustainable comfort kit': [
-        { top: '57%', left: '32.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '57%', left: '72.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '57%', left: '33%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '57%', left: '70%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
       ]
     }
   },
   'BOLERO': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '34.5%', left: '30%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '34.5%', left: '70%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '35%', left: '29%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
+        { top: '35.2%', left: '70%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '34.8%', left: '29.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '34.8%', left: '69.8%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '36%', left: '29%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
+        { top: '36%', left: '69.8%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '66%', left: '30%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '66%', left: '66.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '66%', left: '30.8%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
+        { top: '66%', left: '66.5%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '66%', left: '30%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
-        { top: '66%', left: '67%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '68%', left: '31.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '68%', left: '65.8%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
       ]
     }
   }
@@ -193,74 +193,74 @@ const pdfTextPositions = {
   'THAR ROXX': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '35.5%', left: '25%', rotation: 0, fontSize: { desktop:8, mobile: 8 } },
-        { top: '35.5%', left: '74%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '35%', left: '25.5%', rotation: 0, fontSize: { desktop:8, mobile: 8 } },
+        { top: '35%', left: '74%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
       ],
       'Sustainable comfort kit': [
-        { top: '36%', left: '25%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '36%', left: '73.7%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '32%', left: '25%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '32%', left: '73.7%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '67%', left: '30.8%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '67%', left: '68.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '59%', left: '30.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '59%', left: '68%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
       ],
       'Sustainable comfort kit': [
-        { top: '67%', left: '31.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '67%', left: '67.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } }
+        { top: '59%', left: '30.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '59%', left: '67.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } }
       ]
     }
   },
   'THAR': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '35.5%', left: '28%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '35.5%', left: '71.8%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '37.5%', left: '28%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '37.5%', left: '73%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
       ],
       'Sustainable comfort kit': [
-       { top: '35.5%', left: '27.6%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '35.5%', left: '72%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+       { top: '36.5%', left: '28.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '36.5%', left: '71.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '54%', left: '32%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '54%', left: '66%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '55%', left: '33.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '55%', left: '65.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
       ],
       'Sustainable comfort kit': [
-        { top: '54%', left: '33%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '54%', left: '66.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } }
+        { top: '56%', left: '32.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '56%', left: '65.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } }
       ]
     }
   },
   'XUV700': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '22%', left: '28.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '22%', left: '74.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '22.5%', left: '28.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '22.5%', left: '74.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
       ],
       'Sustainable comfort kit': [
-        { top: '22.7%', left: '28%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '22.7%', left: '75%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '22%', left: '28%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '23.5%', left: '75.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
         { top: '48.5%', left: '35.2%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '48.5%', left: '68%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } }
+        { top: '48.5%', left: '71%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } }
       ],
       'Sustainable comfort kit': [
-        { top: '48.5%', left: '34%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '48.5%', left: '69%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '51%', left: '33%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '51%', left: '70%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
       ]
     }
   },
   'XUV3X0': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '29%', left: '27%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '29%', left: '73%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '28.2%', left: '27%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '30%', left: '73%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
       ],
       'Sustainable comfort kit': [
         { top: '27.5%', left: '25.3%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
@@ -269,8 +269,8 @@ const pdfTextPositions = {
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '54.5%', left: '30.5%', rotation: -1, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '54.5%', left: '71%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '59%', left: '28%', rotation: -1, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '59%', left: '69.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
       ],
       'Sustainable comfort kit': [
         { top: '55%', left: '30%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
@@ -281,66 +281,66 @@ const pdfTextPositions = {
   'SCORPIO N': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '23.5%', left: '24%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '23.5%', left: '70%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '21.5%', left: '24%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '21.5%', left: '72%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
       ],
       'Sustainable comfort kit': [
-        { top: '24.5%', left: '24%', rotation: 0, fontSize: { desktop: 8, mobile: 8  } },
-        { top: '24.5%', left: '70.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '23%', left: '23.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8  } },
+        { top: '23%', left: '70.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '60.5%', left: '29%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } },
-        { top: '60.5%', left: '70.5%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } },
+        { top: '62.5%', left: '27%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
+        { top: '62.5%', left: '70.5%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '60.5%', left: '27%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } },
-        { top: '60.5%', left: '71.5%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } },
+        { top: '60.5%', left: '27%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
+        { top: '60.5%', left: '72.5%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
       ]
     }
   },
   'BOLERO NEO': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '28.5%', left: '27.5%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } },
-        { top: '28.5%', left: '76%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } },
+        { top: '29%', left: '27.5%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
+        { top: '29%', left: '76%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '28.5%', left: '27%', rotation: 0, fontSize: { desktop: 10, mobile: 9 } },
-        { top: '28.5%', left: '76%', rotation: 0, fontSize: { desktop: 10, mobile: 9 } },
+        { top: '28.8%', left: '27%', rotation: 0, fontSize: { desktop: 8, mobile: 9 } },
+        { top: '28.8%', left: '76%', rotation: 0, fontSize: { desktop: 8, mobile: 9 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '52%', left: '32%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } },
-        { top: '52%', left: '72%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } }
+        { top: '52.5%', left: '32%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
+        { top: '52.5%', left: '72%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } }
       ],
       'Sustainable comfort kit': [
-        { top: '52%', left: '32.5%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } },
-        { top: '52%', left: '72.5%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } },
+        { top: '52.5%', left: '33%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
+        { top: '52.5%', left: '70.5%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
       ]
     }
   },
   'BOLERO': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '26%', left: '30%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } },
-        { top: '26%', left: '70%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } },
+        { top: '26.8%', left: '30%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
+        { top: '27%', left: '70%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '26.5%', left: '29.5%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } },
-        { top: '26.5%', left: '69.8%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } },
+        { top: '28%', left: '29.5%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
+        { top: '28%', left: '69.8%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '59%', left: '30%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } },
-        { top: '59%', left: '66.5%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } },
+        { top: '59.5%', left: '31%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
+        { top: '59.5%', left: '66.5%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '60.5%', left: '30%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } },
-        { top: '60.5%', left: '67%', rotation: 0, fontSize: { desktop: 10, mobile: 10 } },
+        { top: '61.5%', left: '31.5%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
+        { top: '61.5%', left: '66%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
       ]
     }
   }
@@ -350,21 +350,21 @@ const previewTextPositions  = {
   'THAR ROXX': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '34.8%', left: '25.5%', rotation: 0, fontSize: { desktop:8, mobile: 8 } },
-        { top: '34.8%', left: '74%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '32%', left: '25.5%', rotation: 0, fontSize: { desktop:8, mobile: 8 } },
+        { top: '32%', left: '74%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
       ],
       'Sustainable comfort kit': [
-        { top: '35%', left: '25%', rotation: 0, fontSize: { desktop: 8, mobile: 9 } },
-        { top: '35%', left: '73.7%', rotation: 0, fontSize: { desktop: 8, mobile: 9 } },
+        { top: '30.5%', left: '25%', rotation: 0, fontSize: { desktop: 8, mobile: 9 } },
+        { top: '30.5%', left: '73.7%', rotation: 0, fontSize: { desktop: 8, mobile: 9 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '66.5%', left: '30.8%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
-        { top: '66.5%', left: '68.5%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
+        { top: '64%', left: '30.5%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
+        { top: '64%', left: '68%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '65%', left: '31.5%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
+        { top: '65%', left: '30.5%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } },
         { top: '65%', left: '67.5%', rotation: 0, fontSize: { desktop: 8, mobile: 10 } }
       ]
     }
@@ -372,132 +372,132 @@ const previewTextPositions  = {
   'THAR': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '40.5%', left: '28%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '40.5%', left: '71.8%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '39%', left: '28%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '39%', left: '73%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
       ],
       'Sustainable comfort kit': [
-       { top: '40.5%', left: '27.6%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '40.5%', left: '72%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+       { top: '38.5%', left: '28.5%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '38.5%', left: '71.5%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '52%', left: '33%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '52%', left: '66.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '52%', left: '33.8%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '52%', left: '65%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
       ],
       'Sustainable comfort kit': [
-        { top: '52%', left: '33%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '52%', left: '66.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } }
+        { top: '53%', left: '32.5%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '53%', left: '65%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } }
       ]
     }
   },
   'XUV700': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '27.5%', left: '28.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '27.5%', left: '74.5%', rotation: 0, fontSize: { desktop: 8, mobile:8 } },
+        { top: '23.5%', left: '28.5%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '23.5%', left: '74.8%', rotation: 0, fontSize: { desktop: 7, mobile:8 } },
       ],
       'Sustainable comfort kit': [
-        { top: '28%', left: '28%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '28%', left: '75%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '23%', left: '28.5%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '24%', left: '75%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '55.5%', left: '35.2%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '55.5%', left: '68%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } }
+        { top: '56.5%', left: '35.2%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '56.5%', left: '71%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } }
       ],
       'Sustainable comfort kit': [
-        { top: '55.5%', left: '34%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '55.5%', left: '69%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '59%', left: '33%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '59%', left: '70%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
       ]
     }
   },
   'XUV3X0': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '31%', left: '27%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '31%', left: '73%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '27.5%', left: '27%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '29.5%', left: '73%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
       ],
       'Sustainable comfort kit': [
-        { top: '31%', left: '25.3%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '31%', left: '72.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '28%', left: '25.3%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '28%', left: '72.5%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '58  %', left: '30.5%', rotation: -1, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '58%', left: '71%', rotation: 0, fontSize: { desktop: 8, mobile: 8} },
+        { top: '59.5%', left: '28.5%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '59.5%', left: '70%', rotation: 0, fontSize: { desktop: 7, mobile: 8} },
       ],
       'Sustainable comfort kit': [
-        { top: '58%', left: '30%', rotation: 0, fontSize: { desktop: 8, mobile: 8} },
-        { top: '58%', left: '70%', rotation: 0, fontSize: { desktop: 8, mobile:8 } },
+        { top: '59.5%', left: '30.5%', rotation: 0, fontSize: { desktop: 7, mobile: 8} },
+        { top: '59.5%', left: '70.5%', rotation: 0, fontSize: { desktop: 7, mobile:8 } },
       ]
     }
   },
   'SCORPIO N': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '32.78%', left: '24%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '32.8%', left: '70%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '25.78%', left: '24%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '25.78%', left: '72%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
       ],
       'Sustainable comfort kit': [
-        { top: '24.5%', left: '24%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '24.5%', left: '70.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '26.5%', left: '23.5%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '26.5%', left: '70.5%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '55.5%', left: '29%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '55.5%', left: '70.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '56.5%', left: '27%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '56.5%', left: '71%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
       ],
       'Sustainable comfort kit': [
-        { top: '60.5%', left: '27%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '60.5%', left: '71.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '54.5%', left: '27%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '54.5%', left: '73%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
       ]
     }
   },
   'BOLERO NEO': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '32.5%', left: '27.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '32.5%', left: '76%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '29.5%', left: '27.5%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '29.5%', left: '76%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
       ],
       'Sustainable comfort kit': [
-        { top: '32.5%', left: '27%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '32.5%', left: '76%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '29.5%', left: '27%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '29.5%', left: '76%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '52%', left: '32%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '52%', left: '72%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } }
+        { top: '52%', left: '32.5%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '52%', left: '72%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } }
       ],
       'Sustainable comfort kit': [
-        { top: '52%', left: '32.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '52%', left: '72.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '52.5%', left: '32.5%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '52.5%', left: '70.5%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
       ]
     }
   },
   'BOLERO': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '31%', left: '30%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '31%', left: '70%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '28%', left: '29.5%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '28.5%', left: '70%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
       ],
       'Sustainable comfort kit': [
-        { top: '31.8%', left: '29.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '31.8%', left: '69.8%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '29%', left: '29.5%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '29%', left: '69.8%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '60.5%', left: '30%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '60.5%', left: '66.5%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '62.5%', left: '31%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '62.5%', left: '66.5%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
       ],
       'Sustainable comfort kit': [
-        { top: '60.8%', left: '30%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
-        { top: '60.8%', left: '67%', rotation: 0, fontSize: { desktop: 8, mobile: 8 } },
+        { top: '64%', left: '31%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
+        { top: '64%', left: '66%', rotation: 0, fontSize: { desktop: 7, mobile: 8 } },
       ]
     }
   }
@@ -607,6 +607,8 @@ const EmbroideredText = ({ text, fontFamily, position, textColor, isMobile }) =>
   );
 };
 
+
+
 const OrderForm = ({ 
   onClose, 
   selectedVehicleModel,
@@ -626,6 +628,7 @@ const OrderForm = ({
   const [dealershipName, setDealershipName] = useState('');
   const [dealershipAddress, setDealershipAddress] = useState('');
   const [dealershipPhone, setDealershipPhone] = useState('');
+  const [dealershipManager, setDealershipManager] =useState('');
   const [errors, setErrors] = useState({});
 
   const orderFormRef = useRef(null);
@@ -664,260 +667,369 @@ const OrderForm = ({
     }
     return true;
   };
+const readonlyStyle = {
+  padding: '6px 10px',
+  backgroundColor: '#f9f9f9',
+  border: '1px solid #ddd',
+  borderRadius: '4px',
+  fontSize: '14px'
+};
 
+const valueStyle = {
+  padding: '6px 10px',
+  border: '1px solid #ccc',
+  borderRadius: '4px',
+  backgroundColor: '#f9f9f9',
+  fontSize: '14px',
+  minHeight: '32px',
+  display: 'flex',
+  alignItems: 'center'
+};
   const getInputStyle = (fieldName) => ({
     width: '100%',
     padding: '8px 12px',
     border: errors[fieldName] ? '2px solid red' : '1px solid #ddd',
-    borderRadius: '4px'
+    borderRadius: '4px',
+    fontSize: '14px'
   });
 
-  const handleDownloadOrder = async () => {
-    if (!orderFormRef.current) return;
-    if (!validateForm()) return;
+const inputStyle = {
+  border: 'none',
+  borderBottom: '1px solid #000',
+  outline: 'none',
+  background: 'transparent',
+  fontSize: '12px',
+  padding: '2px 0',
+  width: '100%'
+};
+const textareaStyle = {
+  ...inputStyle,
+  resize: 'none',
+  height: '40px',
+  marginTop: '0px'
+};
 
-    try {
-      const pdf = new jsPDF('p', 'mm', 'a4');
-      const pageWidth = pdf.internal.pageSize.getWidth();
-      let currentY = 10;
+const dividerStyle = {
+  width: '1.5px',
+  backgroundColor: '#003366',
+  // height: '100%',
+  alignSelf: 'stretch'
+};
 
-      // Logo
-      const logoUrl = '/logooo.png';
-      const logoResponse = await fetch(logoUrl);
-      const logoBlob = await logoResponse.blob();
-      const logoDataUrl = await new Promise((resolve) => {
-        const reader = new FileReader();
-        reader.onload = () => resolve(reader.result);
-        reader.readAsDataURL(logoBlob);
-      });
-      pdf.addImage(logoDataUrl, 'PNG', 20, currentY, 30, 20);
-      currentY += 25;
+const handleDownloadOrder = async () => {
+  if (!orderFormRef.current) return;
+  if (!validateForm()) return;
 
-      // Title
-      pdf.setFontSize(18);
-      pdf.setTextColor(0, 93, 143);
-      pdf.text('ORDER DETAILS', pageWidth / 2, currentY, { align: 'center' });
-      currentY += 5;
-      pdf.setDrawColor(0, 93, 143);
-      pdf.setLineWidth(0.5);
-      pdf.line(15, currentY, pageWidth - 15, currentY);
-      currentY += 7;
+  try {
+    const pdf = new jsPDF('p', 'mm', 'a4');
+    const pageWidth = pdf.internal.pageSize.getWidth();
+    const margin = 15;
+    let currentY = 10;
 
-      // Helper functions
-      const addSection = (title) => {
-        pdf.setFillColor(240, 240, 240);
-        pdf.rect(15, currentY, pageWidth - 30, 8, 'F');
-        pdf.setTextColor(0, 0, 0);
-        pdf.setFontSize(12);
-        pdf.setFont(undefined, 'bold');
-        pdf.text(title, 18, currentY + 5.5);
-        currentY += 12;
-      };
+    // Add Mahindra logo
+    const logoUrl = '/logooo.png';
+    const logoResponse = await fetch(logoUrl);
+    const logoBlob = await logoResponse.blob();
+    const logoDataUrl = await new Promise((resolve) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(reader.result);
+      reader.readAsDataURL(logoBlob);
+    });
+    pdf.addImage(logoDataUrl, 'PNG', margin, currentY, 60, 10);
+    
+    // Add order title
+    currentY += 25;
+    pdf.setFontSize(16);
+    pdf.setTextColor(0, 93, 143); // Mahindra blue
+    pdf.text('PERSONALIZATION ORDER DETAILS', pageWidth / 2, currentY, { align: 'center' });
+    
+    // Add divider line
+    currentY += 5;
+    pdf.setDrawColor(0, 93, 143);
+    pdf.setLineWidth(0.5);
+    pdf.line(margin, currentY, pageWidth - margin, currentY);
+    currentY += 10;
 
-      const addDetail = (label, value, spacing = 6) => {
-        pdf.setFont(undefined, 'normal');
-        pdf.setTextColor(50, 50, 50);
-        pdf.text(`${label}: ${value || 'N/A'}`, 20, currentY);
-        currentY += spacing;
-      };
+    // Helper functions
+    const addSectionHeader = (title) => {
+      pdf.setFillColor(240, 240, 240);
+      pdf.rect(margin, currentY, pageWidth - 2*margin, 8, 'F');
+      pdf.setTextColor(0, 0, 0);
+      pdf.setFontSize(12);
+      pdf.setFont(undefined, 'bold');
+      pdf.text(title, margin + 3, currentY + 5.5);
+      currentY += 12;
+    };
 
-      const addBottomLine = () => {
-        currentY += 2;
-        pdf.setDrawColor(220, 220, 220);
-        pdf.line(15, currentY, pageWidth - 15, currentY);
-        currentY += 6;
-      };
-
-      // ORDER INFO
-      addSection('ORDER INFORMATION');
-      addDetail('Order Number', orderNo);
-      addDetail('Order Date', orderDate);
-      addBottomLine();
-
-      // CUSTOMER INFO
-      addSection('CUSTOMER DETAILS');
-      addDetail('Full Name', customerName);
-      addDetail('Mobile', customerMobile);
-      addDetail('Address', customerAddress);
-      addBottomLine();
-
-      // DEALERSHIP INFO
-      addSection('DEALERSHIP DETAILS');
-      addDetail('Name', dealershipName);
-
-      // Multiline Address
+    const addTwoColumnDetail = (leftLabel, leftValue, rightLabel, rightValue) => {
       pdf.setFont(undefined, 'normal');
-      pdf.setTextColor(50, 50, 50);
-      const addressLines = pdf.splitTextToSize(`Address: ${dealershipAddress || 'N/A'}`, pageWidth - 40);
-      pdf.text(addressLines, 20, currentY);
-      currentY += addressLines.length * 6;
-
-      // Phone
-      addDetail('Phone', dealershipPhone);
-      addBottomLine();
-
-      // DESIGN PREVIEW - Show both views with text
-      addSection('DESIGN PREVIEW');
+      pdf.setFontSize(10);
       
-      // Helper function to capture a view with text
-      const captureViewWithText = async (seatView) => {
-        const element = document.createElement('div');
-        element.style.position = 'fixed';
-        element.style.left = '-9999px';
-        element.style.width = '400px'; // Fixed width for PDF
-        element.style.height = '300px'; // Fixed height for PDF
-        document.body.appendChild(element);
+      // Left column
+      pdf.setTextColor(100, 100, 100);
+      pdf.text(leftLabel + ':', margin, currentY);
+      pdf.setTextColor(50, 50, 50);
+      pdf.text(leftValue || 'N/A', margin + 30, currentY);
+      
+      // Right column
+      pdf.setTextColor(100, 100, 100);
+      pdf.text(rightLabel + ':', pageWidth/2 + 10, currentY);
+      pdf.setTextColor(50, 50, 50);
+      pdf.text(rightValue || 'N/A', pageWidth/2 + 40, currentY);
+      
+      currentY += 6;
+    };
 
-        // Create image
-        const img = document.createElement('img');
-        img.src = `/models/${selectedVehicleModel}/${seatView}/${selectedAccessory}.png`;
-        img.style.width = '100%';
-        img.style.height = 'auto';
-        element.appendChild(img);
-
-        // Wait for image to load
-        await new Promise(resolve => {
-          img.onload = resolve;
-        });
-
-        // Get PDF-specific positions
-        const positions = pdfTextPositions[selectedVehicleModel]?.[seatView]?.[selectedAccessory] || [];
-        
-        // Add text elements
-        positions.forEach((position) => {
-          const textEl = document.createElement('div');
-          textEl.textContent = personalisedContent;
-          textEl.style.position = 'absolute';
-          textEl.style.top = position.top;
-          textEl.style.left = position.left;
-          textEl.style.transform = `translate(-50%, -50%) ${position.rotation ? `rotate(${position.rotation}deg)` : ''}`;
-          textEl.style.fontFamily = `"${selectedFont}"`;
-          
-          // Fix: Apply the correct font size from pdfTextPositions
-          // Use desktop size as default since we're generating PDF
-          const fontSize = position.fontSize ? position.fontSize.desktop : 6;
-          textEl.style.fontSize = `${fontSize}px`;
-          
-          textEl.style.color = selectedColor;
-          textEl.style.fontStyle = 'italic';
-          textEl.style.fontWeight = 'bold';
-          textEl.style.WebkitTextStroke = '0.3px rgba(68, 68, 68, 0.5)';
-          textEl.style.textShadow = `
-            1px 1px 1px rgba(33, 33, 33, 0.28),
-            -1px -1px 1px rgba(71, 71, 71, 0.56),
-            0 0 2px rgba(37, 36, 36, 0.3)
-          `;
-          textEl.style.pointerEvents = 'none';
-          textEl.style.whiteSpace = 'nowrap';
-          element.appendChild(textEl);
-        });
-
-        // Add styles
-        const style = document.createElement('style');
-        style.textContent = extraStyles;
-        element.appendChild(style);
-
-        // Capture canvas
-        const canvas = await html2canvas(element, {
-          scale: 2,
-          useCORS: true,
-          allowTaint: true,
-          backgroundColor: null
-        });
-
-        // Clean up
-        document.body.removeChild(element);
-
-        return canvas.toDataURL('image/jpeg', 0.9);
-      };
-      try {
-        // Get both views with text
-        const frontImage = await captureViewWithText('Front Row');
-        const rearImage = await captureViewWithText('Rear Row');
-        
-        // Calculate dimensions
-        const imgWidth = (pageWidth - 30) / 2 - 5;
-        const imgHeight = 60;
-        
-        // Add front view
-        pdf.addImage(frontImage, 'JPEG', 15, currentY, imgWidth, imgHeight);
-        
-        // Add rear view
-        pdf.addImage(rearImage, 'JPEG', 15 + imgWidth + 10, currentY, imgWidth, imgHeight);
-        
-        // Add labels
-        pdf.setFontSize(6);
-        pdf.setTextColor(100, 100, 100);
-        pdf.text('Front Row', 15 + imgWidth/2 - 10, currentY + imgHeight + 5);
-        pdf.text('Rear Row', 15 + imgWidth + 10 + imgWidth/2 - 10, currentY + imgHeight + 5);
-        
-        currentY += imgHeight + 15;
-      } catch (err) {
-        console.error("Error capturing both views:", err);
-        // Fallback to showing just the base images without text
-        const imgWidth = 80;
-        const imgHeight = 60;
-        const imgX = (pageWidth - imgWidth) / 2;
-        
-        // Front row fallback
-        const frontImgPath = `/models/${selectedVehicleModel}/Front Row/${selectedAccessory}.png`;
-        pdf.addImage(frontImgPath, 'PNG', 15, currentY, imgWidth, imgHeight);
-        
-        // Rear row fallback
-        const rearImgPath = `/models/${selectedVehicleModel}/Rear Row/${selectedAccessory}.png`;
-        pdf.addImage(rearImgPath, 'PNG', 15 + imgWidth + 10, currentY, imgWidth, imgHeight);
-        
-        currentY += imgHeight + 15;
-
-          // Add text description
-  pdf.setFontSize(10);
-  pdf.setTextColor(150, 0, 0);
-  pdf.text(`Text: "${personalisedContent}"`, 15, currentY);
-  pdf.text(`Font: ${selectedFont}, Color: ${selectedColor}`, 15, currentY + 5);
-  currentY += 10;
-
-      }
-
-      // PERSONALIZATION
-      addSection('PERSONALIZATION DETAILS');
-      const textColorName = textColors.find(c => c.value === selectedColor)?.name || selectedColor || 'N/A';
-      const personalizationData = [
-        ['Vehicle Model', selectedVehicleModel],
-        ['Accessory', selectedAccessory],
-        ['Personalized Text', personalisedContent],
-        ['Font Style', selectedFont],
-        ['Text Color', textColorName],
-        ['Number of Sets', numSets]
-      ];
-      personalizationData.forEach(([label, value]) => addDetail(label, value));
-
-      // Footer
-      pdf.setDrawColor(0, 93, 143);
-      // pdf.line(15, 290, pageWidth - 15, 290);
+    const addSingleDetail = (label, value) => {
+      pdf.setFont(undefined, 'normal');
       pdf.setFontSize(10);
       pdf.setTextColor(100, 100, 100);
-      pdf.text('Generated by Mahindra Personalization Tool', pageWidth / 2, 295, { align: 'center' });
+      pdf.text(label + ':', margin, currentY);
+      pdf.setTextColor(50, 50, 50);
+      pdf.text(value || 'N/A', margin + 30, currentY);
+      currentY += 6;
+    };
 
-      // Order No + Date in bottom right
-      pdf.setTextColor(0, 93, 143);
+    const addDividerLine = () => {
+      currentY += 3;
+      pdf.setDrawColor(200, 200, 200);
+      pdf.line(margin, currentY, pageWidth - margin, currentY);
+      currentY += 6;
+    };
+
+    // Order Information
+    addSectionHeader('ORDER INFORMATION');
+    addTwoColumnDetail('Order Number', orderNo, 'Order Date', orderDate);
+    addDividerLine();
+
+// CUSTOMER & DEALER DETAILS
+addSectionHeader('CUSTOMER & DEALER DETAILS');
+
+// Define column positions
+const dealerX = margin;
+const customerX = pageWidth / 2 + 5;
+let dealerY = currentY + 2;
+let customerY = currentY + 2;
+
+// --- Column Headers ---
+pdf.setFont(undefined, 'bold');
+pdf.setFontSize(11);
+pdf.setTextColor(0, 0, 0);
+pdf.text('Dealer Info', dealerX, dealerY);
+pdf.text('Customer Info', customerX, customerY);
+
+dealerY += 8;
+customerY += 8;
+
+// --- Dealer Info ---
+pdf.setFont(undefined, 'normal');
+pdf.setFontSize(10);
+pdf.setTextColor(100, 100, 100);
+pdf.text('Dealer Name:', dealerX, dealerY);
+pdf.setTextColor(50, 50, 50);
+pdf.text(dealershipName || 'N/A', dealerX + 25, dealerY);
+dealerY += 6;
+
+pdf.setTextColor(100, 100, 100);
+pdf.text('Dealer Access Manager:', dealerX, dealerY);
+pdf.setTextColor(50, 50, 50);
+pdf.text(dealershipManager || 'N/A', dealerX + 40, dealerY);
+dealerY += 6;
+
+pdf.setTextColor(100, 100, 100);
+pdf.text('Dealer Manager Access Contact:', dealerX, dealerY);
+pdf.setTextColor(50, 50, 50);
+pdf.text(dealershipPhone || 'N/A', dealerX + 53, dealerY);
+dealerY += 6;
+
+pdf.setTextColor(100, 100, 100);
+pdf.text('Dealer Address:', dealerX, dealerY);
+pdf.setTextColor(50, 50, 50);
+const dealerAddressLines = pdf.splitTextToSize(dealershipAddress || 'N/A', (pageWidth / 2) - margin - 10);
+pdf.text(dealerAddressLines, dealerX + 30, dealerY);
+dealerY += dealerAddressLines.length * 5;
+
+// --- Customer Info ---
+pdf.setTextColor(100, 100, 100);
+pdf.text('Customer Name:', customerX, customerY);
+pdf.setTextColor(50, 50, 50);
+pdf.text(customerName || 'N/A', customerX + 28, customerY);
+customerY += 6;
+
+pdf.setTextColor(100, 100, 100);
+pdf.text('Customer Phone:', customerX, customerY);
+pdf.setTextColor(50, 50, 50);
+pdf.text(customerMobile || 'N/A', customerX + 30, customerY);
+customerY += 6;
+
+pdf.setTextColor(100, 100, 100);
+pdf.text('Customer Address:', customerX, customerY);
+pdf.setTextColor(50, 50, 50);
+const customerAddressLines = pdf.splitTextToSize(customerAddress || 'N/A', (pageWidth / 2) - margin - 10);
+pdf.text(customerAddressLines, customerX + 33, customerY);
+customerY += customerAddressLines.length * 5;
+
+// Update currentY to max Y of both columns
+currentY = Math.max(dealerY, customerY) + 5;
+addDividerLine();
+
+    // Vehicle & Personalization Details
+    addSectionHeader('VEHICLE & PERSONALIZATION');
+    addTwoColumnDetail('Vehicle Model', selectedVehicleModel, 'Accessory Kit', selectedAccessory);
+    addTwoColumnDetail('Personalized Text', personalisedContent, 'Font Style', selectedFont);
+    
+const textColorName = textColors.find(c => c.value === selectedColor)?.name || selectedColor;
+
+// Draw swatch BEFORE writing row
+pdf.setFillColor(selectedColor);
+pdf.rect(38, currentY - 3.2, 4, 4, 'F'); // ✅ 120 is a safe X offset for first column value
+
+addTwoColumnDetail('Thread Color', textColorName, 'Quantity', numSets.toString());
+    addDividerLine();
+
+    // Design Preview Section
+    addSectionHeader('DESIGN PREVIEW');
+    
+    // Helper function to capture seat view with text
+    const captureSeatView = async (seatView) => {
+      const element = document.createElement('div');
+      element.style.position = 'fixed';
+      element.style.left = '-9999px';
+      element.style.width = '400px';
+      element.style.height = '290px';
+      document.body.appendChild(element);
+
+      const img = document.createElement('img');
+      img.src = `/models/${selectedVehicleModel}/${seatView}/${selectedAccessory}.png`;
+      img.style.width = '100%';
+      img.style.height = 'auto';
+      element.appendChild(img);
+
+      await new Promise(resolve => {
+        img.onload = resolve;
+      });
+
+      const positions = pdfTextPositions[selectedVehicleModel]?.[seatView]?.[selectedAccessory] || [];
       
-      ///make this into correct form.......................
-const formattedDate = orderDate
-  ? new Date(orderDate).toLocaleDateString('en-GB') // dd/mm/yyyy
-  : new Date().toLocaleDateString('en-GB');
+      positions.forEach((position) => {
+        const textEl = document.createElement('div');
+        textEl.textContent = personalisedContent;
+        textEl.style.position = 'absolute';
+        textEl.style.top = position.top;
+        textEl.style.left = position.left;
+        textEl.style.transform = `translate(-50%, -50%) ${position.rotation ? `rotate(${position.rotation}deg)` : ''}`;
+        textEl.style.fontFamily = `"${selectedFont}"`;
+        
+        const fontSize = position.fontSize ? position.fontSize.desktop : 6;
+        textEl.style.fontSize = `${fontSize}px`;
+        
+        textEl.style.color = selectedColor;
+        textEl.style.fontStyle = 'italic';
+        textEl.style.fontWeight = 'bold';
+        textEl.style.WebkitTextStroke = '0.3px rgba(68, 68, 68, 0.5)';
+        textEl.style.textShadow = `
+          1px 1px 1px rgba(33, 33, 33, 0.28),
+          -1px -1px 1px rgba(71, 71, 71, 0.56),
+          0 0 2px rgba(37, 36, 36, 0.3)
+        `;
+        textEl.style.pointerEvents = 'none';
+        textEl.style.whiteSpace = 'nowrap';
+        element.appendChild(textEl);
+      });
 
-pdf.text(`${orderNo || 'N/A'} - ${formattedDate.replace(/\//g, '-')}`, pageWidth - 20, 295, { align: 'right' });
+      const style = document.createElement('style');
+      style.textContent = extraStyles;
+      element.appendChild(style);
 
-      ////////////////
-      // Save it
-      const filename = `Mahindra_Order_${orderNo || Date.now()}.pdf`;
-      pdf.save(filename);
+      const canvas = await html2canvas(element, {
+        scale: 1.5,
+        useCORS: true,
+        allowTaint: true,
+        backgroundColor: null
+      });
 
-    } catch (err) {
-      console.error("PDF Error:", err);
-      alert("Failed to generate order PDF. Please try again.");
-    }
-  };
+      document.body.removeChild(element);
+      return canvas.toDataURL('image/jpeg', 0.9);
+    };
+
+  try {
+  // Capture both seat views (already at scale: 1.5 for better quality)
+  const [frontImage, rearImage] = await Promise.all([
+    captureSeatView('Front Row'),
+    captureSeatView('Rear Row')
+  ]);
+
+  // Create Image objects to get original dimensions
+  const frontImg = new Image();
+  const rearImg = new Image();
+  frontImg.src = frontImage;
+  rearImg.src = rearImage;
+
+  await Promise.all([
+    new Promise(resolve => frontImg.onload = resolve),
+    new Promise(resolve => rearImg.onload = resolve)
+  ]);
+
+  // Desired width for each image
+  const imgWidth = (pageWidth - 2 * margin - 10) / 2;
+
+  // Maintain aspect ratio for each
+  const frontHeight = (frontImg.height / frontImg.width) * imgWidth;
+  const rearHeight = (rearImg.height / rearImg.width) * imgWidth;
+
+  // Use the taller height for consistent row spacing
+  const imgHeight = Math.max(frontHeight, rearHeight);
+
+  // Add Front Row image
+  pdf.addImage(frontImage, 'JPEG', margin, currentY, imgWidth, frontHeight, undefined, 'FAST');
+  pdf.setFontSize(8);
+  pdf.setTextColor(100, 100, 100);
+  pdf.text('Front Row', margin + imgWidth / 2, currentY + frontHeight + 6, { align: 'center' });
+
+  // Add Rear Row image
+  pdf.addImage(rearImage, 'JPEG', margin + imgWidth + 10, currentY, imgWidth, rearHeight, undefined, 'FAST');
+  pdf.text('Rear Row', margin + imgWidth + 10 + imgWidth / 2, currentY + rearHeight + 6, { align: 'center' });
+
+  // Move Y based on tallest image
+  currentY += imgHeight + 15;
+
+} catch (err) {
+  console.error("Error capturing seat views:", err);
+  pdf.setFontSize(10);
+  pdf.setTextColor(150, 0, 0);
+  pdf.text('Design preview could not be generated', margin, currentY);
+  currentY += 10;
+}
+
+    // Footer
+    pdf.setFontSize(8);
+    pdf.setTextColor(100, 100, 100);
+    
+    // Left footer - Generated by
+    pdf.text('Generated by Mahindra Personalization Tool', margin, 290);
+    
+    // Right footer - Order number and date
+    const formattedDate = new Date(orderDate).toLocaleDateString('en-GB', {
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric'
+    }).replace(/\//g, '-');
+    
+    pdf.text(`Order: ${orderNo} - ${formattedDate}`, pageWidth - margin, 290, { align: 'right' });
+    
+    // Footer line
+    pdf.setDrawColor(0, 93, 143);
+    pdf.line(margin, 292, pageWidth - margin, 292);
+
+    // Save the PDF
+    const filename = `Mahindra_Order_${orderNo || 'ORDER'}_${formattedDate}.pdf`;
+    pdf.save(filename);
+
+  } catch (err) {
+    console.error("PDF generation error:", err);
+    alert("Failed to generate order PDF. Please try again.");
+  }
+};
 
   return (
     <div style={{
@@ -938,10 +1050,8 @@ pdf.text(`${orderNo || 'N/A'} - ${formattedDate.replace(/\//g, '-')}`, pageWidth
         style={{
           backgroundColor: 'white',
           padding: '30px',
-          paddingTop: '40px',
-          paddingBottom: '60px',
           borderRadius: '8px',
-          maxWidth: '800px',
+          maxWidth: '900px',
           width: '100%',
           maxHeight: '90vh',
           overflowY: 'auto',
@@ -957,7 +1067,7 @@ pdf.text(`${orderNo || 'N/A'} - ${formattedDate.replace(/\//g, '-')}`, pageWidth
             right: '15px',
             width: '30px',
             height: '30px',
-            borderRadius: '50%',
+            borderRadius: '20%',
             border: 'none',
             fontSize: '20px',
             cursor: 'pointer',
@@ -971,112 +1081,247 @@ pdf.text(`${orderNo || 'N/A'} - ${formattedDate.replace(/\//g, '-')}`, pageWidth
           ×
         </button>
 
-        {/* Header */}
-        <div style={{ textAlign: 'center', marginBottom: '10px' }}>
-          <img src="/logooo.png" alt="Mahindra Logo" style={{ height: '150px'}} />
-          <h2 style={{ margin: '10px 0', color: '#005d8f' }}>Order Details</h2>
+  {/* Header with Logo and Centered Title */}
+<div
+  style={{
+    position: 'relative',
+    display: 'flex',
+    alignItems: 'center',
+    marginBottom: '10px',
+    paddingBottom: '0px',
+    borderBottom: '2px solid #e0e0e0',
+    height: '60px' // set height to keep things aligned
+  }}
+>
+  <img
+    src="/logooo.png"
+    alt="Mahindra Logo"
+    style={{
+      height: '30px',
+      marginRight: '20px'
+    }}
+  />
+
+  <h2
+    style={{
+      position: 'absolute',
+      left: '50%',
+      transform: 'translateX(-50%)',
+      margin: 0,
+      color: '#005d8f',
+      fontSize: '24px',
+      fontWeight: 'bold'
+    }}
+  >
+    Personalization Order details
+  </h2>
+</div>
+
+
+        {/* Order Number and Date - Top Right */}
+   <div
+  style={{
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'flex-end',
+    gap: '10px',
+    marginBottom: '10px',
+    textAlign: 'right',
+    // position: 'absolute',
+    // top: '80px',
+    right: '30px'
+  }}
+>
+  {/* Order Number Row */}
+  <div style={{ display: 'flex', alignItems: 'center' }}>
+    <label
+      style={{
+        fontSize: '14px',
+        fontWeight: 'bold',
+        marginRight: '10px',
+        minWidth: '110px'
+      }}
+    >
+      Order Number :
+    </label>
+    <input
+      name="orderNo"
+      type="text"
+      value={orderNo}
+      onChange={(e) => setOrderNo(e.target.value)}
+      style={{
+        ...getInputStyle('orderNo'),
+        width: '100px',
+        textAlign: 'center'
+      }}
+    />
+  </div>
+
+  {/* Order Date Row */}
+  <div style={{ display: 'flex', alignItems: 'center' }}>
+    <label
+      style={{
+        fontSize: '14px',
+        fontWeight: 'bold',
+        marginRight: '10px',
+        minWidth: '110px'
+      }}
+    >
+      Order Date :
+    </label>
+    <input
+      type="date"
+      value={orderDate}
+      onChange={(e) => setOrderDate(e.target.value)}
+      style={{
+        ...getInputStyle('orderDate'),
+        width: '100px',
+        textAlign: 'center'
+      }}
+    />
+  </div>
+</div>
+
+        {/* Main Content Area */}
+<div style={{ borderTop: '2px solid #005d8f', paddingTop: '0px' }}>
+  <div
+    style={{
+      display: 'flex',
+      padding: '20px 0',
+      gap: '0px',
+      alignItems: 'flex-start'
+    }}
+  >
+    {/* Dealer Info */}
+    <div style={{ flex: 1, paddingRight: '20px' }}>
+      <div style={{ marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '4px' }}>
+        <label style={{ fontWeight: 'bold', minWidth: '140px' }}>Dealer Name :</label>
+        <input type="text" value={dealershipName} onChange={(e) => setDealershipName(e.target.value)} style={inputStyle} />
+      </div>
+
+      <div style={{ marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '4px' }}>
+        <label style={{ fontWeight: 'bold', minWidth: '140px' }}>Dealer Access Manager :</label>
+        <input type="text" value={dealershipManager} maxLength={30} onChange={(e) => setDealershipManager(e.target.value)} style={inputStyle} />
+      </div>
+
+      <div style={{ marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '4px' }}>
+        <label style={{ fontWeight: 'bold', minWidth: '140px' }}>Dealer Access Manager Contact:</label>
+        <input type="text" inputMode="numeric" maxLength={10} value={dealershipPhone} onChange={(e) => setDealershipPhone(e.target.value.replace(/\D/g, ''))} style={inputStyle} />
+      </div>
+
+      <div style={{ display: 'flex', alignItems: 'flex-start', gap: '4px' }}>
+        <label style={{ fontWeight: 'bold', minWidth: '140px', marginTop: '6px' }}>Dealer Address :</label>
+        <textarea value={dealershipAddress} onChange={(e) => setDealershipAddress(e.target.value)} style={textareaStyle} />
+      </div>
+    </div>
+
+    {/* Divider */}
+    <div style={dividerStyle} />
+
+    {/* Customer Info */}
+    <div style={{ flex: 1, padding: '0 20px' }}>
+      <div style={{ marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '4px' }}>
+        <label style={{ fontWeight: 'bold', minWidth: '140px' }}>Customer Name :</label>
+        <input type="text" value={customerName} onChange={(e) => setCustomerName(e.target.value)} style={inputStyle} />
+      </div>
+
+      <div style={{ marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '4px' }}>
+        <label style={{ fontWeight: 'bold', minWidth: '140px' }}>Customer Phone :</label>
+        <input type="text" value={customerMobile} maxLength={10} onChange={(e) => setCustomerMobile(e.target.value.replace(/\D/g, ''))} style={inputStyle} />
+      </div>  
+
+      <div style={{ display: 'flex', alignItems: 'flex-start', gap: '4px' }}>
+        <label style={{ fontWeight: 'bold', minWidth: '140px', marginTop: '6px' }}>Customer Add :</label>
+        <textarea value={customerAddress} onChange={(e) => setCustomerAddress(e.target.value)} style={textareaStyle} />
+      </div>
+    </div>
+
+    {/* Divider */}
+    <div style={dividerStyle} />
+
+    {/* Vehicle Info */}
+    <div style={{ flex: 1, paddingLeft: '20px' }}>
+      <div style={{ marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '4px' }}>
+        <label style={{ fontWeight: 'bold', minWidth: '140px' }}>Vehicle Model :</label>
+        <span>{selectedVehicleModel}</span>
+      </div>
+
+      <div style={{ marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '4px' }}>
+        <label style={{ fontWeight: 'bold', minWidth: '140px' }}>Accessory :</label>
+        <span>{selectedAccessory}</span>
+      </div>
+
+      <div style={{ marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '4px' }}>
+        <label style={{ fontWeight: 'bold', minWidth: '140px' }}>Text Content :</label>
+        <span>{personalisedContent}</span>
+      </div>
+
+      <div style={{ marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '4px' }}>
+        <label style={{ fontWeight: 'bold', minWidth: '140px' }}>Font :</label>
+        <span>{selectedFont}</span>
+      </div>
+
+      <div style={{ marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '4px' }}>
+        <label style={{ fontWeight: 'bold', minWidth: '140px' }}>Thread :</label>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <span
+            style={{
+              width: '16px',
+              height: '16px',
+              backgroundColor: selectedColor,
+              border: '1px solid #ccc',
+              borderRadius: '3px'
+            }}
+          />
+          <span>{textColors.find((c) => c.value === selectedColor)?.name || selectedColor}</span>
         </div>
+      </div>
 
-        {/* Form */}
-        <form>
-          {/* Order Info */}
-          <div style={{ marginBottom: '30px' }}>
-            <h3 style={{ color: '#005d8f', marginBottom: '15px' }}>Order Information</h3>
-            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-              <div style={{ width: '48%', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                <label style={{ fontWeight: '500' }}>Order Number</label>
-                <input
-                  name="orderNo"
-                  type="text"
-                  value={orderNo}
-                  onChange={(e) => setOrderNo(e.target.value)}
-                  style={getInputStyle('orderNo')}
-                />
-              </div>
-              <div style={{ width: '48%', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                <label style={{ fontWeight: '500' }}>Order Date</label>
-                <input
-                  type="date"
-                  value={orderDate}
-                  onChange={(e) => setOrderDate(e.target.value)}
-                  style={getInputStyle('orderDate')}
-                />
-              </div>
-            </div>
-          </div>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+        <label style={{ fontWeight: 'bold', minWidth: '140px' }}>Qty :</label>
+        <span>{numSets}</span>
+      </div>
+    </div>
+  </div>
+</div>
 
-          {/* Customer Info */}
-          <div style={{ marginBottom: '25px' }}>
-            <h3 style={{ color: '#005d8f' }}>Customer Details</h3>
-            <label>Full Name</label>
-            <input
-              type="text"
-              value={customerName}
-              onChange={(e) => setCustomerName(e.target.value)}
-              style={getInputStyle('customerName')}
-            />
-            <label style={{ marginTop: '10px' }}>Mobile Number</label>
-            <input
-              name="customerMobile"
-              type="text"
-              value={customerMobile}
-              maxLength={10}
-              onChange={(e) => {
-                const val = e.target.value.replace(/\D/g, '');
-                setCustomerMobile(val);
-              }}
-              style={getInputStyle('customerMobile')}
-            />
-            <label style={{ marginTop: '10px' }}>Address</label>
-            <textarea
-              value={customerAddress}
-              onChange={(e) => setCustomerAddress(e.target.value)}
-              style={{ ...getInputStyle('customerAddress'), minHeight: '80px' }}
-            />
-          </div>
 
-          {/* Dealership Info */}
-          <div style={{ marginBottom: '25px' }}>
-            <h3 style={{ color: '#005d8f' }}>Dealership Details</h3>
-            <label>Dealership Name</label>
-            <input
-              name="dealershipName"
-              type="text"
-              value={dealershipName}
-              onChange={(e) => setDealershipName(e.target.value)}
-              style={getInputStyle('dealershipName')}
-            />
-            <label style={{ marginTop: '10px' }}>Dealership Address</label>
-            <textarea
-              value={dealershipAddress}
-              onChange={(e) => setDealershipAddress(e.target.value)}
-              style={{ ...getInputStyle('dealershipAddress'), minHeight: '80px' }}
-            />
-            <label style={{ marginTop: '10px' }}>Dealership Phone</label>
-            <input
-              name="dealershipPhone"
-              type="text"
-              value={dealershipPhone}
-              maxLength={10}
-              onChange={(e) => {
-                const val = e.target.value.replace(/\D/g, '');
-                setDealershipPhone(val);
-              }}
-              style={getInputStyle('dealershipPhone')}
-            />
-          </div>
 
-          {/* Preview - Show both views with text */}
-<div style={{ marginBottom: '25px', textAlign: 'center' }}>
-  <h3 style={{ color: '#005d8f', marginBottom: '15px' }}>Design Preview</h3>
-  <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}>
+
+
+
+{/* Design Preview Section */}
+{/* Design Preview Section */}
+<div style={{ 
+  marginTop: '30px',
+  textAlign: 'center',
+  borderTop: '2px solid #e0e0e0',
+  paddingTop: '20px'
+}}>
+  <div style={{ 
+    display: 'flex', 
+    justifyContent: 'center', 
+    gap: '40px',
+    flexWrap: 'wrap'
+  }}>
+    {/* Front Row Image */}
     <div>
-      <h4 style={{ marginBottom: '5px' }}>Front Row</h4>
+      <h4 style={{ 
+        marginBottom: '10px',
+        color: '#005d8f',
+        fontSize: '16px',
+        fontWeight: 'bold'
+      }}>
+        Front Row
+      </h4>
       <div style={{ 
         position: 'relative', 
         display: 'inline-block',
-        width: '400px',  // Increased size
-        height: '350px'  // Increased size
+        width: '380px',
+        height: '300px',
+        border: '2px solid #ddd',
+        borderRadius: '8px',
+        overflow: 'hidden'
       }}>
         <img
           src={`/models/${selectedVehicleModel}/Front Row/${selectedAccessory}.png`}
@@ -1084,9 +1329,6 @@ pdf.text(`${orderNo || 'N/A'} - ${formattedDate.replace(/\//g, '-')}`, pageWidth
           style={{
             width: '100%',
             height: '100%',
-            objectFit: 'contain',
-            border: '1px solid #ddd',
-            borderRadius: '4px'
           }}
         />
         {fontsLoaded && personalisedContent && previewTextPositions[selectedVehicleModel]?.['Front Row']?.[selectedAccessory]?.map((position, index) => {
@@ -1124,13 +1366,25 @@ pdf.text(`${orderNo || 'N/A'} - ${formattedDate.replace(/\//g, '-')}`, pageWidth
         })}
       </div>
     </div>
+
+    {/* Rear Row Image */}
     <div>
-      <h4 style={{ marginBottom: '5px' }}>Rear Row</h4>
+      <h4 style={{ 
+        marginBottom: '10px',
+        color: '#005d8f',
+        fontSize: '16px',
+        fontWeight: 'bold'
+      }}>
+        Rear Row
+      </h4>
       <div style={{ 
         position: 'relative', 
         display: 'inline-block',
-        width: '400px',  // Increased size
-        height: '350px'  // Increased size
+        width: '380px',
+        height: '300px',
+        border: '2px solid #ddd',
+        borderRadius: '8px',
+        overflow: 'hidden'
       }}>
         <img
           src={`/models/${selectedVehicleModel}/Rear Row/${selectedAccessory}.png`}
@@ -1138,9 +1392,6 @@ pdf.text(`${orderNo || 'N/A'} - ${formattedDate.replace(/\//g, '-')}`, pageWidth
           style={{
             width: '100%',
             height: '100%',
-            objectFit: 'contain',
-            border: '1px solid #ddd',
-            borderRadius: '4px'
           }}
         />
         {fontsLoaded && personalisedContent && previewTextPositions[selectedVehicleModel]?.['Rear Row']?.[selectedAccessory]?.map((position, index) => {
@@ -1181,47 +1432,38 @@ pdf.text(`${orderNo || 'N/A'} - ${formattedDate.replace(/\//g, '-')}`, pageWidth
   </div>
 </div>
 
-          {/* Personalization */}
-          <div className="personalization-details" style={{ marginBottom: '25px' }}>
-            <h3 style={{ color: '#005d8f' }}>Personalization Details</h3>
-            <p><strong>Vehicle Model:</strong> {selectedVehicleModel}</p>
-            <p><strong>Accessory:</strong> {selectedAccessory}</p>
-            <p><strong>Personalized Text:</strong> {personalisedContent}</p>
-            <p><strong>Font Style:</strong> {selectedFont}</p>
-            <p><strong>Text Color:</strong> <span style={{
-              display: 'inline-block',
-              width: '15px',
-              height: '15px',
-              backgroundColor: selectedColor,
-              border: '1px solid #ccc',
-              marginRight: '5px',
-              verticalAlign: 'middle'
-            }} /> {textColors.find(color => color.value === selectedColor)?.name || selectedColor}</p>
-            <p><strong>Number of Sets:</strong> {numSets}</p>
-          </div>
-
-          {/* Action Buttons */}
-          <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '10px' }}>
-            <button
-              type="button"
-              onClick={handleDownloadOrder}
-              style={{
-                padding: '10px 20px',
-                backgroundColor: '#ec891f',
-                color: '#fff',
-                border: 'none',
-                borderRadius: '4px',
-                cursor: 'pointer'
-              }}
-            >
-              Download Invoice
-            </button>
-          </div>
-        </form>
+        {/* Download Button */}
+        <div style={{ 
+          marginTop: '30px',
+          textAlign: 'center',
+          borderTop: '2px solid #e0e0e0',
+          paddingTop: '20px'
+        }}>
+          <button
+            type="button"
+            onClick={handleDownloadOrder}
+            style={{
+              padding: '12px 30px',
+              backgroundColor: '#ec891f',
+              color: '#fff',
+              border: 'none',
+              borderRadius: '6px',
+              cursor: 'pointer',
+              fontSize: '16px',
+              fontWeight: 'bold'
+            }}
+          >
+            Download Invoice
+          </button>
+        </div>
       </div>
     </div>
   );
 };
+
+
+
+
 const App = () => {
   const [selectedVehicleModel, setSelectedVehicleModel] = useState('');
   const [selectedSeatView, setSelectedSeatView] = useState('Front Row');
@@ -1523,41 +1765,97 @@ const handleContinue = async () => {
       {preloadSelectedFont()}
       
       <div className="left-panel">
-        <h3>PERSONALISED ACCESSORIES</h3>
-        <p>Showcase your unique style by personalizing your accessory with elegantly embroidered lettering in your preferred font.</p>
+     <h3 style={{ fontFamily: 'Georgia, serif' }}>PERSONALISED ACCESSORIES</h3>
+<p style={{ fontFamily: 'Georgia, serif', marginTop:'-20px' }}>
+  Showcase your unique style by personalizing your accessory with elegantly embroidered lettering in your preferred font.
+</p>
 
-        <label>Vehicle Model</label>
-        <select value={selectedVehicleModel} onChange={e => setSelectedVehicleModel(e.target.value)}>
-          <option value="" disabled>Select a Vehicle Model</option>
-          {vehicleModels.map(model => (
-            <option key={model} value={model}>{model}</option>
-          ))}
-        </select>
-        <label>Select Row</label>
-        <select 
-          value={selectedSeatView} 
-          onChange={e => setSelectedSeatView(e.target.value)}
-          disabled={!selectedVehicleModel}
-        >
-          <option value="" disabled>Select Row</option>
-          {seatViews.map(view => (
-            <option key={view} value={view}>{view}</option>
-          ))}
-        </select>
 
-        <label>Kit Type</label>
-        <select 
-          value={selectedAccessory} 
-          onChange={e => setSelectedAccessory(e.target.value)}
-          disabled={!selectedVehicleModel || !selectedSeatView}
-        >
-          <option value="" disabled>Select an Accessory</option>
-          {accessories.map(acc => (
-            <option key={acc} value={acc}>{acc}</option>
-          ))}
-        </select>
+{/* //drop down code  */}
 
-        <label>Personalised Content</label>
+<>
+{/* Vehicle Model */}
+<label style={{ fontFamily: 'Georgia, serif' }}>Vehicle Model</label>
+<select
+  value={selectedVehicleModel}
+  onChange={e => setSelectedVehicleModel(e.target.value)}
+  style={{ fontFamily: 'Georgia, serif' }} // ✅ Selected text in Georgia
+>
+  <option
+    value=""
+    disabled
+    style={{ fontFamily: 'Georgia, serif', fontStyle: 'normal' }} // ✅ Placeholder text in Georgia
+  >
+    Select a Vehicle Model
+  </option>
+  {vehicleModels.map(model => (
+    <option
+      key={model}
+      value={model}
+      style={{ fontFamily: 'Georgia, serif' }} // ✅ Option text in Georgia
+    >
+      {model}
+    </option>
+  ))}
+</select>
+
+{/* Select Row */}
+<label style={{ fontFamily: 'Georgia, serif' }}>Select Row</label>
+<select
+  value={selectedSeatView}
+  onChange={e => setSelectedSeatView(e.target.value)}
+  disabled={!selectedVehicleModel}
+  style={{ fontFamily: 'Georgia, serif' }} // ✅ Ensures selected value uses Georgia
+>
+  <option
+    value=""
+    disabled
+    style={{ fontFamily: 'Georgia, serif', fontStyle: 'normal' }} // ✅ Placeholder text in Georgia
+  >
+    Select Row
+  </option>
+  {seatViews.map(view => (
+    <option
+      key={view}
+      value={view}
+      style={{ fontFamily: 'Georgia, serif' }} // ✅ Each option in Georgia
+    >
+      {view}
+    </option>
+  ))}
+</select>
+
+
+{/* Kit Type */}
+<label style={{ fontFamily: 'Georgia, serif' }}>Kit Type</label>
+<select
+  value={selectedAccessory}
+  onChange={e => setSelectedAccessory(e.target.value)}
+  disabled={!selectedVehicleModel || !selectedSeatView}
+  style={{ fontFamily: 'Georgia, serif' }} // ✅ Whole select defaults to Georgia
+>
+  <option
+    value=""
+    disabled
+    style={{ fontFamily: 'Georgia, serif', fontStyle: 'normal' }} // ✅ Placeholder in Georgia
+  >
+    Select an Accessory
+  </option>
+  {accessories.map(acc => (
+    <option
+      key={acc}
+      value={acc}
+      style={{ fontFamily: 'Georgia, serif' }} // ✅ Options in Georgia
+    >
+      {acc}
+    </option>
+  ))}
+</select>
+
+
+{/* Personalised Content */}
+<label style={{ fontFamily: 'Georgia, serif' }}>Personalised Content</label>
+        {/* <label>Personalised Content</label> */}
         <input
           type="text"
           maxLength={7}
@@ -1565,80 +1863,103 @@ const handleContinue = async () => {
           onChange={e => setPersonalisedContent(e.target.value)}
           style={{ fontFamily: selectedFont }}
         />
+{/* Font Style */}
+{/* Font Style */}
+<label style={{ fontFamily: 'Georgia, serif' }}>Font Style</label>
+<select
+  value={selectedFont}
+  onChange={e => setSelectedFont(e.target.value)}
+  style={{ fontFamily: selectedFont || 'Georgia, serif' }} // ✅ If nothing selected, Georgia
+>
+  <option
+    value=""
+    disabled
+    style={{ fontFamily: 'Georgia, serif', fontStyle: 'normal' }} // ✅ Placeholder in Georgia
+  >
+    Select a Font Style
+  </option>
+  {fontStyles.map(font => (
+    <option
+      key={font}
+      value={font}
+      style={{ fontFamily: font, fontStyle: 'italic' }} // ✅ Each font shown as actual
+    >
+      {font}
+    </option>
+  ))}
+</select>
 
-        <label>Font Style</label>
-        <select value={selectedFont} onChange={e => setSelectedFont(e.target.value)}>
-          <option value="" disabled>Select a Font Style</option>
-          {fontStyles.map(font => (
-            <option key={font} value={font} style={{ fontFamily: font, fontStyle: 'italic' }}>
-              {font}
-            </option>
-          ))}
-        </select>
-        
-        <div className="font-preview" style={{ marginTop: '5px', marginBottom: '15px' }}>
-          <span style={{ fontSize: '14px', color: '#666' }}></span>
-        </div>
-        
-        <label>Select Text Color</label>
-        <div className="color-palette">
-          {textColors.map(color => (
-            <div
-              key={color.value}
-              className={`color-swatch ${selectedColor === color.value ? 'selected' : ''}`}
-              style={{ 
-                backgroundColor: color.value,
-                width: '25px',
-                height: '25px',
-                borderRadius: '50%',
-                margin: '8px 5px 5px 0',
-                cursor: 'pointer',
-                display: 'inline-block',
-                border: selectedColor === color.value ? '2px solid black' : '1px solid #ddd'
-              }}
-              onClick={() => setSelectedColor(color.value)}
-              title={color.name}
-            />
-          ))}
-        </div>
 
-        <label>No. of Sets</label>
-        <div style={{ position: 'relative', width: '100px' }}>
-          <input
-            type="number"
-            min={1}
-            value={numSets}
-            onChange={e => setNumSets(Math.max(1, parseInt(e.target.value) || 1))}
-            style={{
-              width: '100%',
-              padding: '5px 25px',
-              textAlign: 'center',
-              MozAppearance: 'textfield'
-            }}
-          />
-          <span
-            style={{
-              position: 'absolute',
-              left: '5px',
-              top: '55%',
-              transform: 'translateY(-50%)',
-              cursor: 'pointer',
-              fontWeight: 'bold'
-            }}
-            onClick={() => setNumSets(prev => Math.max(1, prev - 1))}
-          >−</span>
-          <span
-            style={{
-              position: 'absolute',
-              right: '-47px',
-              top: '55%',
-              transform: 'translateY(-50%)',
-              cursor: 'pointer',
-              fontWeight: 'bold'
-            }}
-            onClick={() => setNumSets(prev => prev + 1)}
-          >+</span>
-        </div>
+{/* Text Color */}
+<label style={{ fontFamily: 'Georgia, serif' }}>Select Text Color</label>
+<div className="color-palette">
+  {textColors.map(color => (
+    <div
+      key={color.value}
+      className={`color-swatch ${selectedColor === color.value ? 'selected' : ''}`} // ✅ Fixed template literal
+      style={{ 
+        backgroundColor: color.value,
+        width: '25px',
+        height: '25px',
+        borderRadius: '50%',
+        margin: '8px 5px 5px 0',
+        cursor: 'pointer',
+        display: 'inline-block',
+        border: selectedColor === color.value ? '2px solid black' : '1px solid #ddd'
+      }}
+      onClick={() => setSelectedColor(color.value)}
+      title={color.name}
+    />
+  ))}
+</div>
+
+
+{/* No. of Sets */}
+<label style={{ fontFamily: 'Georgia, serif' }}>No. of Sets</label>
+<div style={{ position: 'relative', width: '100px' }}>
+  <input
+    type="number"
+    min={1}
+    value={numSets}
+    onChange={e => setNumSets(Math.max(1, parseInt(e.target.value) || 1))}
+    style={{
+      width: '100%',
+      padding: '5px 25px',
+      textAlign: 'center',
+      MozAppearance: 'textfield',
+      fontFamily: 'Georgia, serif' // ✅ Apply Georgia
+    }}
+  />
+  <span
+    style={{
+      position: 'absolute',
+      left: '5px',
+      top: '55%',
+      transform: 'translateY(-50%)',
+      cursor: 'pointer',
+      fontWeight: 'bold',
+      fontFamily: 'Georgia, serif'
+    }}
+    onClick={() => setNumSets(prev => Math.max(1, prev - 1))}
+  >
+    −
+  </span>
+  <span
+    style={{
+      position: 'absolute',
+      right: '-47px',
+      top: '55%',
+      transform: 'translateY(-50%)',
+      cursor: 'pointer',
+      fontWeight: 'bold',
+      fontFamily: 'Georgia, serif'
+    }}
+    onClick={() => setNumSets(prev => prev + 1)}
+  >
+    +
+  </span>
+</div>
+
         
  <div className="button-group" style={{ 
   display: 'flex', 
@@ -1656,6 +1977,7 @@ const handleContinue = async () => {
       color: 'white',
       border: 'none',
       borderRadius: '4px',
+           fontFamily: 'Georgia, serif',
       cursor: 'pointer',
       fontSize: '16px',
       fontWeight: '500',
@@ -1678,6 +2000,7 @@ const handleContinue = async () => {
       border: 'none',
       borderRadius: '4px',
       cursor: 'pointer',
+           fontFamily: 'Georgia, serif',
       fontSize: '16px',
       fontWeight: '500',
       transition: 'background-color 0.3s',
@@ -1689,7 +2012,9 @@ const handleContinue = async () => {
     Continue
   </button>
 </div>
+    </>
       </div>
+  
 
       <div className="right-panel">
         <div className="image-container" ref={imageRef} style={{ position: 'relative' }}>
