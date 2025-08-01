@@ -35,18 +35,18 @@ const textPositions = {
   'THAR ROXX': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '38%', left: '25%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '38%', left: '74%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '38%', left: '25%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
+        { top: '38%', left: '74%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '36.7%', left: '25%', rotation: 0, fontSize: { desktop: 15, mobile: 9 } },
-        { top: '36.7%', left: '74%', rotation: 0, fontSize: { desktop: 15, mobile: 9 } },
+        { top: '36.7%', left: '25%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '36.7%', left: '74%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
       ]
     },
     'Rear Row': {
       'Black comfort kit': [
-        { top: '68.5%', left: '30.5%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
-        { top: '68.5%', left: '68%', rotation: 0, fontSize: { desktop: 15, mobile: 10 } },
+        { top: '68.5%', left: '30.5%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
+        { top: '68.5%', left: '68%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
         { top: '68%', left: '30%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
@@ -57,12 +57,12 @@ const textPositions = {
   'THAR': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '44.5%', left: '28%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
-        { top: '44.5%', left: '72.8%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
+        { top: '45%', left: '28%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
+        { top: '45%', left: '72.8%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-       { top: '44.5%', left: '28.4%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
-        { top: '44.5%', left: '71.5%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
+       { top: '44.5%', left: '28.4%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '44.5%', left: '71.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
       ]
     },
     'Rear Row': {
@@ -79,12 +79,12 @@ const textPositions = {
   'XUV700': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '30.8%', left: '28.2%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
-        { top: '31%', left: '75%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
+        { top: '30.8%', left: '28.2%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
+        { top: '31%', left: '75%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '30.5%', left: '28%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
-        { top: '31.5%', left: '75%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
+        { top: '30.5%', left: '28%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '31.5%', left: '75%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
       ]
     },
     'Rear Row': {
@@ -101,12 +101,12 @@ const textPositions = {
   'XUV3X0': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '34%', left: '27%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
-        { top: '35.5%', left: '73%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
+        { top: '35%', left: '26%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
+        { top: '35%', left: '72.8%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '35%', left: '25.3%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
-        { top: '35%', left: '72.5%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
+        { top: '35%', left: '25.3%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '35%', left: '72.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
       ]
     },
     'Rear Row': {
@@ -123,12 +123,12 @@ const textPositions = {
   'SCORPIO N': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '34%', left: '24%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
-        { top: '34%', left: '72.5%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
+        { top: '34%', left: '24%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
+        { top: '34%', left: '72.5%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '34.8%', left: '23%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
-        { top: '34.5%', left: '70.5%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
+        { top: '34.8%', left: '23%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '34.5%', left: '70.5%', rotation: 0, fontSize: { desktop:14, mobile: 9 } },
       ]
     },
     'Rear Row': {
@@ -145,12 +145,12 @@ const textPositions = {
   'BOLERO NEO': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '36%', left: '27.5%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
-        { top: '35.8%', left: '76%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
+        { top: '36%', left: '27.5%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
+        { top: '35.8%', left: '76%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '36.4%', left: '27%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
-        { top: '36.4%', left: '75.5%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
+        { top: '36.4%', left: '27%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
+        { top: '36.4%', left: '75.5%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
       ]
     },
     'Rear Row': {
@@ -167,11 +167,11 @@ const textPositions = {
   'BOLERO': {
     'Front Row': {
       'Black comfort kit': [
-        { top: '35%', left: '29%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
-        { top: '35.2%', left: '70%', rotation: 0, fontSize: { desktop: 12, mobile: 10 } },
+        { top: '35%', left: '29%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
+        { top: '35.2%', left: '70%', rotation: 0, fontSize: { desktop: 14, mobile: 10 } },
       ],
       'Sustainable comfort kit': [
-        { top: '36%', left: '29%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
+        { top: '36%', left: '29%', rotation: 0, fontSize: { desktop: 14, mobile: 9 } },
         { top: '36%', left: '69.8%', rotation: 0, fontSize: { desktop: 12, mobile: 9 } },
       ]
     },
@@ -653,7 +653,7 @@ const OrderForm = ({
     if (!orderNo.trim()) newErrors.orderNo = 'Order Number is required';
     if (!dealershipName.trim()) newErrors.dealershipName = 'Dealership Name is required';
     if (!customerMobile.match(/^\d{10}$/)) newErrors.customerMobile = 'Customer Mobile must be 10 digits';
-    if (!dealershipPhone.match(/^\d{10}$/)) newErrors.dealershipPhone = 'Dealership Phone must be 10 digits';
+    // if (!dealershipPhone.match(/^\d{10}$/)) newErrors.dealershipPhone = 'Dealership Phone must be 10 digits';
 
     setErrors(newErrors);
 
@@ -716,189 +716,169 @@ const dividerStyle = {
   alignSelf: 'stretch'
 };
 
+// Final, React-compatible version of handleDownloadOrder with clean, modern Mahindra layout
+
 const handleDownloadOrder = async () => {
-  if (!orderFormRef.current) return;
-  if (!validateForm()) return;
+  if (!orderFormRef.current || !validateForm()) return;
 
   try {
     const pdf = new jsPDF('p', 'mm', 'a4');
     const pageWidth = pdf.internal.pageSize.getWidth();
-    const margin = 15;
+    const margin = 10;
     let currentY = 10;
 
-    // Add Mahindra logo
-    const logoUrl = '/logooo.png';
-    const logoResponse = await fetch(logoUrl);
+    const labelColor = [0, 0, 0];
+    const valueColor = [80, 80, 80];
+    const sectionBg = [245, 245, 245];
+
+    const formattedDate = new Date(orderDate).toLocaleDateString('en-GB', {
+      day: '2-digit', month: '2-digit', year: 'numeric'
+    }).replace(/\//g, ' - ');
+
+    // Mahindra logo
+    const logoResponse = await fetch('/logooo.png');
     const logoBlob = await logoResponse.blob();
-    const logoDataUrl = await new Promise((resolve) => {
+    const logoDataUrl = await new Promise(resolve => {
       const reader = new FileReader();
       reader.onload = () => resolve(reader.result);
       reader.readAsDataURL(logoBlob);
     });
     pdf.addImage(logoDataUrl, 'PNG', margin, currentY, 60, 10);
-    
-    // Add order title
-    currentY += 25;
-    pdf.setFontSize(16);
-    pdf.setTextColor(0, 93, 143); // Mahindra blue
-    pdf.text('PERSONALIZATION ORDER DETAILS', pageWidth / 2, currentY, { align: 'center' });
-    
-    // Add divider line
-    currentY += 5;
-    pdf.setDrawColor(0, 93, 143);
+
+    // Order info
+    pdf.setFontSize(10);
+    pdf.setTextColor(...valueColor);
+    pdf.text(`Order No : ${orderNo}`, pageWidth - margin, currentY + 6, { align: 'right' });
+    pdf.text(`Date : ${formattedDate}`, pageWidth - margin, currentY + 12, { align: 'right' });
+
+    currentY += 18;
+    pdf.setDrawColor(255, 153, 153);
     pdf.setLineWidth(0.5);
     pdf.line(margin, currentY, pageWidth - margin, currentY);
-    currentY += 10;
+    currentY += 4;
 
-    // Helper functions
     const addSectionHeader = (title) => {
-      pdf.setFillColor(240, 240, 240);
-      pdf.rect(margin, currentY, pageWidth - 2*margin, 8, 'F');
-      pdf.setTextColor(0, 0, 0);
+      pdf.setFillColor(...sectionBg);
+      pdf.rect(margin, currentY, pageWidth - 2 * margin, 8, 'F');
+      pdf.setTextColor(...labelColor);
       pdf.setFontSize(12);
       pdf.setFont(undefined, 'bold');
-      pdf.text(title, margin + 3, currentY + 5.5);
+      pdf.text(title, margin + 1, currentY + 5.5);
       currentY += 12;
     };
 
-    const addTwoColumnDetail = (leftLabel, leftValue, rightLabel, rightValue) => {
+    // Add Dealer & Customer Section
+    addSectionHeader('DEALER & CUSTOMER DETAILS');
+
+    const dealerX = margin;
+    const customerX = pageWidth / 2 + 5;
+    let dealerY = currentY + 3;
+    let customerY = currentY + 3;
+
+    pdf.setFontSize(10);
+    pdf.setFont(undefined, 'bold');
+    pdf.setTextColor(...labelColor);
+    pdf.text('DEALER INFORMATION', dealerX, dealerY);
+    pdf.text('CUSTOMER INFORMATION', customerX, customerY);
+    dealerY += 6;
+    customerY += 6;
+
+    const addLabelValue = (label, value, x, y, labelWidth = 45) => {
+      const safeValue = (value && value !== 'N/A') ? value : '';
+      pdf.setFontSize(9);
+      pdf.setFont(undefined, 'bold');
+      pdf.setTextColor(...labelColor);
+      pdf.text(label, x, y);
       pdf.setFont(undefined, 'normal');
-      pdf.setFontSize(10);
-      
-      // Left column
-      pdf.setTextColor(100, 100, 100);
-      pdf.text(leftLabel + ':', margin, currentY);
-      pdf.setTextColor(50, 50, 50);
-      pdf.text(leftValue || 'N/A', margin + 30, currentY);
-      
-      // Right column
-      pdf.setTextColor(100, 100, 100);
-      pdf.text(rightLabel + ':', pageWidth/2 + 10, currentY);
-      pdf.setTextColor(50, 50, 50);
-      pdf.text(rightValue || 'N/A', pageWidth/2 + 40, currentY);
-      
-      currentY += 6;
+      pdf.setTextColor(...valueColor);
+      pdf.text(safeValue, x + labelWidth, y);
     };
 
-    const addSingleDetail = (label, value) => {
-      pdf.setFont(undefined, 'normal');
-      pdf.setFontSize(10);
-      pdf.setTextColor(100, 100, 100);
-      pdf.text(label + ':', margin, currentY);
-      pdf.setTextColor(50, 50, 50);
-      pdf.text(value || 'N/A', margin + 30, currentY);
-      currentY += 6;
+    const addLabelValueWithWrap = (label, value, x, y, labelWidth = 45, maxWidth = 80) => {
+      const safeValue = (value && value !== 'N/A') ? value : '';
+      
+      // Add label
+      pdf.setFontSize(9);
+      pdf.setFont(undefined, 'bold');
+      pdf.setTextColor(...labelColor);
+      pdf.text(label, x, y);
+      
+      if (safeValue) {
+        pdf.setFont(undefined, 'normal');
+        pdf.setTextColor(...valueColor);
+        
+        // Split text to fit within available width
+        const availableWidth = maxWidth - labelWidth;
+        const lines = pdf.splitTextToSize(safeValue, availableWidth);
+        
+        // Place text starting from the same line as label, then wrap if needed
+        const valueX = x + labelWidth;
+        for (let i = 0; i < lines.length; i++) {
+          pdf.text(lines[i], valueX, y + (i * 4));
+        }
+        
+        return Math.max(lines.length * 4, 5); // Return height used (minimum 5 for single line)
+      }
+      return 5; // Default height for label only
     };
 
-    const addDividerLine = () => {
-      currentY += 3;
-      pdf.setDrawColor(200, 200, 200);
-      pdf.line(margin, currentY, pageWidth - margin, currentY);
-      currentY += 6;
-    };
+    // Dealer info
+    addLabelValue('Dealer Name :', dealershipName, dealerX, dealerY);
+    dealerY += 5;
+    addLabelValue('Dealer Access Manager :', dealershipManager, dealerX, dealerY);
+    dealerY += 5;
+    // addLabelValue('Dealer Manager Contact :', dealershipPhone, dealerX, dealerY);
+    // dealerY += 5;
+    
+    // Use new function for dealer address with proper wrapping
+    const dealerAddrHeight = addLabelValueWithWrap('Dealer Address :', dealershipAddress, dealerX, dealerY, 45, 80);
+    dealerY += dealerAddrHeight;
 
-    // Order Information
-    addSectionHeader('ORDER INFORMATION');
-    addTwoColumnDetail('Order Number', orderNo, 'Order Date', orderDate);
-    addDividerLine();
+    // Customer info
+    addLabelValue('Customer Name :', customerName, customerX, customerY);
+    customerY += 5;
+    addLabelValue('Customer Phone :', customerMobile, customerX, customerY);
+    customerY += 5;
+    
+    // Use new function for customer address with proper wrapping
+    const customerAddrHeight = addLabelValueWithWrap('Customer Address :', customerAddress, customerX, customerY, 45, 80);
+    customerY += customerAddrHeight;
 
-// CUSTOMER & DEALER DETAILS
-addSectionHeader('CUSTOMER & DEALER DETAILS');
+    currentY = Math.max(dealerY, customerY) + 2;
+    pdf.line(margin, currentY, pageWidth - margin, currentY);
+    currentY += 4;
 
-// Define column positions
-const dealerX = margin;
-const customerX = pageWidth / 2 + 5;
-let dealerY = currentY + 2;
-let customerY = currentY + 2;
-
-// --- Column Headers ---
-pdf.setFont(undefined, 'bold');
-pdf.setFontSize(11);
-pdf.setTextColor(0, 0, 0);
-pdf.text('Dealer Info', dealerX, dealerY);
-pdf.text('Customer Info', customerX, customerY);
-
-dealerY += 8;
-customerY += 8;
-
-// --- Dealer Info ---
-pdf.setFont(undefined, 'normal');
-pdf.setFontSize(10);
-pdf.setTextColor(100, 100, 100);
-pdf.text('Dealer Name:', dealerX, dealerY);
-pdf.setTextColor(50, 50, 50);
-pdf.text(dealershipName || 'N/A', dealerX + 25, dealerY);
-dealerY += 6;
-
-pdf.setTextColor(100, 100, 100);
-pdf.text('Dealer Access Manager:', dealerX, dealerY);
-pdf.setTextColor(50, 50, 50);
-pdf.text(dealershipManager || 'N/A', dealerX + 40, dealerY);
-dealerY += 6;
-
-pdf.setTextColor(100, 100, 100);
-pdf.text('Dealer Manager Access Contact:', dealerX, dealerY);
-pdf.setTextColor(50, 50, 50);
-pdf.text(dealershipPhone || 'N/A', dealerX + 53, dealerY);
-dealerY += 6;
-
-pdf.setTextColor(100, 100, 100);
-pdf.text('Dealer Address:', dealerX, dealerY);
-pdf.setTextColor(50, 50, 50);
-const dealerAddressLines = pdf.splitTextToSize(dealershipAddress || 'N/A', (pageWidth / 2) - margin - 10);
-pdf.text(dealerAddressLines, dealerX + 30, dealerY);
-dealerY += dealerAddressLines.length * 5;
-
-// --- Customer Info ---
-pdf.setTextColor(100, 100, 100);
-pdf.text('Customer Name:', customerX, customerY);
-pdf.setTextColor(50, 50, 50);
-pdf.text(customerName || 'N/A', customerX + 28, customerY);
-customerY += 6;
-
-pdf.setTextColor(100, 100, 100);
-pdf.text('Customer Phone:', customerX, customerY);
-pdf.setTextColor(50, 50, 50);
-pdf.text(customerMobile || 'N/A', customerX + 30, customerY);
-customerY += 6;
-
-pdf.setTextColor(100, 100, 100);
-pdf.text('Customer Address:', customerX, customerY);
-pdf.setTextColor(50, 50, 50);
-const customerAddressLines = pdf.splitTextToSize(customerAddress || 'N/A', (pageWidth / 2) - margin - 10);
-pdf.text(customerAddressLines, customerX + 33, customerY);
-customerY += customerAddressLines.length * 5;
-
-// Update currentY to max Y of both columns
-currentY = Math.max(dealerY, customerY) + 5;
-addDividerLine();
-
-    // Vehicle & Personalization Details
+    // VEHICLE & PERSONALIZATION
     addSectionHeader('VEHICLE & PERSONALIZATION');
-    addTwoColumnDetail('Vehicle Model', selectedVehicleModel, 'Accessory Kit', selectedAccessory);
-    addTwoColumnDetail('Personalized Text', personalisedContent, 'Font Style', selectedFont);
-    
-const textColorName = textColors.find(c => c.value === selectedColor)?.name || selectedColor;
+    addLabelValue('Vehicle Model :', selectedVehicleModel, margin, currentY);
+    addLabelValue('Accessory Kit :', selectedAccessory, pageWidth / 2 + 5, currentY);
+    currentY += 6;
+    addLabelValue('Personalized Text :', personalisedContent, margin, currentY);
+    addLabelValue('Font Style :', selectedFont, pageWidth / 2 + 5, currentY);
+    currentY += 6;
+    const textColorName = textColors.find(c => c.value === selectedColor)?.name || selectedColor;
+    addLabelValue('Thread Color :', textColorName, margin, currentY);
+    const boxSize = 5; // make it slightly smaller
+    const boxX = margin + 45 + pdf.getTextWidth(textColorName) + 3;
+    const boxY = currentY - 3.5;
 
-// Draw swatch BEFORE writing row
-pdf.setFillColor(selectedColor);
-pdf.rect(38, currentY - 3.2, 4, 4, 'F'); // ✅ 120 is a safe X offset for first column value
+    pdf.setDrawColor(0);
+    pdf.setFillColor(selectedColor);
+    pdf.roundedRect(boxX, boxY, boxSize, boxSize, 1.5, 1.5, 'F'); // border radius ~10px visually
+    addLabelValue('Quantity :', numSets.toString(), pageWidth / 2 + 5, currentY);
+    currentY += 8;
+    pdf.line(margin, currentY, pageWidth - margin, currentY);
+    currentY += 4;
 
-addTwoColumnDetail('Thread Color', textColorName, 'Quantity', numSets.toString());
-    addDividerLine();
-
-    // Design Preview Section
+    // DESIGN PREVIEW
     addSectionHeader('DESIGN PREVIEW');
-    
-    // Helper function to capture seat view with text
+
     const captureSeatView = async (seatView) => {
       const element = document.createElement('div');
       element.style.position = 'fixed';
       element.style.left = '-9999px';
       element.style.width = '500px';
       element.style.height = '390px';
-
-
       document.body.appendChild(element);
 
       const img = document.createElement('img');
@@ -907,131 +887,111 @@ addTwoColumnDetail('Thread Color', textColorName, 'Quantity', numSets.toString()
       img.style.height = '100%';
       element.appendChild(img);
 
-      await new Promise(resolve => {
-        img.onload = resolve;
-      });
+      await new Promise(resolve => img.onload = resolve);
 
       const positions = pdfTextPositions[selectedVehicleModel]?.[seatView]?.[selectedAccessory] || [];
-      
-      positions.forEach((position) => {
+      positions.forEach(position => {
         const textEl = document.createElement('div');
         textEl.textContent = personalisedContent;
         textEl.style.position = 'absolute';
         textEl.style.top = position.top;
         textEl.style.left = position.left;
         textEl.style.transform = `translate(-50%, -50%) ${position.rotation ? `rotate(${position.rotation}deg)` : ''}`;
-        textEl.style.fontFamily = `"${selectedFont}"`;
-        
-        const fontSize = position.fontSize ? position.fontSize.desktop : 6;
-        textEl.style.fontSize = `${fontSize}px`;
-        
+        textEl.style.fontFamily = selectedFont;
+        textEl.style.fontSize = `${position.fontSize?.desktop || 6}px`;
         textEl.style.color = selectedColor;
         textEl.style.fontStyle = 'italic';
         textEl.style.fontWeight = 'bold';
         textEl.style.WebkitTextStroke = '0.3px rgba(68, 68, 68, 0.5)';
-        textEl.style.textShadow = `
-          1px 1px 1px rgba(33, 33, 33, 0.28),
-          -1px -1px 1px rgba(71, 71, 71, 0.56),
-          0 0 2px rgba(37, 36, 36, 0.3)
-        `;
+        textEl.style.textShadow = `1px 1px 1px rgba(33, 33, 33, 0.28), -1px -1px 1px rgba(71, 71, 71, 0.56), 0 0 2px rgba(37, 36, 36, 0.3)`;
         textEl.style.pointerEvents = 'none';
         textEl.style.whiteSpace = 'nowrap';
         element.appendChild(textEl);
       });
 
-      const style = document.createElement('style');
-      style.textContent = extraStyles;
-      element.appendChild(style);
-
-      const canvas = await html2canvas(element, {
-        scale: 1.5,
-        useCORS: true,
-        allowTaint: true,
-        backgroundColor: null
-      });
-
+      const canvas = await html2canvas(element, { scale: 1.5, useCORS: true, allowTaint: true, backgroundColor: null });
       document.body.removeChild(element);
-      return canvas.toDataURL('image/jpeg', 0.9);
+      return canvas.toDataURL('image/jpeg', 0.95);
     };
 
-  try {
-  // Capture both seat views (already at scale: 1.5 for better quality)
-  const [frontImage, rearImage] = await Promise.all([
-    captureSeatView('Front Row'),
-    captureSeatView('Rear Row')
-  ]);
+    const [frontImage, rearImage] = await Promise.all([
+      captureSeatView('Front Row'),
+      captureSeatView('Rear Row')
+    ]);
 
-  // Create Image objects to get original dimensions
-  const frontImg = new Image();
-  const rearImg = new Image();
-  frontImg.src = frontImage;
-  rearImg.src = rearImage;
+    const imgW = (pageWidth - 2 * margin - 10) / 2;
+    const img1 = new Image(); img1.src = frontImage;
+    const img2 = new Image(); img2.src = rearImage;
+    await Promise.all([img1.decode(), img2.decode()]);
+    const h1 = (img1.height / img1.width) * imgW;
+    const h2 = (img2.height / img2.width) * imgW;
+    const imgH = Math.max(h1, h2);
+    pdf.addImage(frontImage, 'JPEG', margin, currentY, imgW, h1);
+    pdf.text('Front Row', margin + imgW / 2, currentY + h1 + 5, { align: 'center' });
+    pdf.addImage(rearImage, 'JPEG', margin + imgW + 10, currentY, imgW, h2);
+    pdf.text('Rear Row', margin + imgW + 10 + imgW / 2, currentY + h2 + 5, { align: 'center' });
+    currentY += imgH + 12;
 
-  await Promise.all([
-    new Promise(resolve => frontImg.onload = resolve),
-    new Promise(resolve => rearImg.onload = resolve)
-  ]);
-
-  // Desired width for each image
-  const imgWidth = (pageWidth - 2 * margin - 10) / 2;
-
-  // Maintain aspect ratio for each
-  const frontHeight = (frontImg.height / frontImg.width) * imgWidth;
-  const rearHeight = (rearImg.height / rearImg.width) * imgWidth;
-
-  // Use the taller height for consistent row spacing
-  const imgHeight = Math.max(frontHeight, rearHeight);
-
-  // Add Front Row image
-  pdf.addImage(frontImage, 'JPEG', margin, currentY, imgWidth, frontHeight, undefined, 'FAST');
-  pdf.setFontSize(8);
-  pdf.setTextColor(100, 100, 100);
-  pdf.text('Front Row', margin + imgWidth / 2, currentY + frontHeight + 6, { align: 'center' });
-
-  // Add Rear Row image
-  pdf.addImage(rearImage, 'JPEG', margin + imgWidth + 10, currentY, imgWidth, rearHeight, undefined, 'FAST');
-  pdf.text('Rear Row', margin + imgWidth + 10 + imgWidth / 2, currentY + rearHeight + 6, { align: 'center' });
-
-  // Move Y based on tallest image
-  currentY += imgHeight + 15;
-
-} catch (err) {
-  console.error("Error capturing seat views:", err);
-  pdf.setFontSize(10);
-  pdf.setTextColor(150, 0, 0);
-  pdf.text('Design preview could not be generated', margin, currentY);
-  currentY += 10;
-}
-
-    // Footer
+    // DEALERSHIP AUTHENTICATION
+    addSectionHeader('DEALERSHIP AUTHENTICATION');
     pdf.setFontSize(8);
-    pdf.setTextColor(100, 100, 100);
-    
-    // Left footer - Generated by
+    pdf.setTextColor(...valueColor);
+    pdf.text(
+      'Please affix the official dealership seal and provide an authorized signature below to validate this personalization.',
+      margin, currentY
+    );
+    currentY += 12;
+
+    pdf.setFont(undefined, 'bold');
+    pdf.setFontSize(9);
+    pdf.setTextColor(...labelColor);
+    pdf.text('Authorized Representative Name:', margin, currentY);
+    currentY += 6;
+    pdf.text('Signature:', margin, currentY);
+    currentY += 6;
+    pdf.text('Date:', margin, currentY);
+    currentY += 9;
+
+    pdf.setFont(undefined, 'italic');
+    pdf.setFontSize(8);
+    pdf.setTextColor(150, 0, 0);
+    pdf.text('Note: Personalization will not be processed without dealership authentication.', margin, currentY);
+    currentY += 9;
+
+    // DELIVERY TIMELINE NOTICE
+    pdf.setFont(undefined, 'bold');
+    pdf.setFontSize(10);
+    pdf.setTextColor(...labelColor);
+    pdf.text('Delivery Timeline Notice', margin, currentY);
+    currentY += 5;
+
+    const deliveryText =
+      'Please note: Personalized orders may require additional processing time. Delivery timelines may vary depending on the nature of customization and your location. We appreciate your patience as we ensure your SUV reflects your unique style with precision and care.';
+    pdf.setFont(undefined, 'normal');
+    pdf.setFontSize(8);
+    const lines = pdf.splitTextToSize(deliveryText, pageWidth - 2 * margin);
+    pdf.text(lines, margin, currentY);
+    currentY += lines.length * 4 + 4;
+
+    // FOOTER
+    pdf.setFontSize(8);
+    pdf.setTextColor(100);
     pdf.text('Generated by Mahindra Personalization Tool', margin, 290);
-    
-    // Right footer - Order number and date
-    const formattedDate = new Date(orderDate).toLocaleDateString('en-GB', {
-      day: '2-digit',
-      month: '2-digit',
-      year: 'numeric'
-    }).replace(/\//g, '-');
-    
-    pdf.text(`Order: ${orderNo} - ${formattedDate}`, pageWidth - margin, 290, { align: 'right' });
-    
-    // Footer line
-    pdf.setDrawColor(0, 93, 143);
+    pdf.text(`${orderNo} - ${formattedDate}`, pageWidth - margin, 290, { align: 'right' });
+    pdf.setDrawColor(255, 153, 153);
     pdf.line(margin, 292, pageWidth - margin, 292);
 
-    // Save the PDF
-    const filename = `Mahindra_Order_${orderNo || 'ORDER'}_${formattedDate}.pdf`;
+    const filename = `Mahindra_Order_${orderNo || 'ORDER'}_${formattedDate.replace(/ /g, '-')}.pdf`;
     pdf.save(filename);
 
   } catch (err) {
-    console.error("PDF generation error:", err);
-    alert("Failed to generate order PDF. Please try again.");
+    console.error('PDF generation failed:', err);
+    alert('Something went wrong while generating the PDF.');
   }
 };
+
+
+
 
   return (
     <div style={{
@@ -1074,7 +1034,7 @@ addTwoColumnDetail('Thread Color', textColorName, 'Quantity', numSets.toString()
             fontSize: '20px',
             cursor: 'pointer',
             color: '#fff',
-            backgroundColor: 'orange',
+            backgroundColor: '#dd052b',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -1127,7 +1087,7 @@ addTwoColumnDetail('Thread Color', textColorName, 'Quantity', numSets.toString()
     flexDirection: 'column',
     alignItems: 'flex-end',
     gap: '10px',
-    marginBottom: '10px',
+    marginBottom: '5px',
     textAlign: 'right',
     // position: 'absolute',
     // top: '80px',
@@ -1205,11 +1165,11 @@ addTwoColumnDetail('Thread Color', textColorName, 'Quantity', numSets.toString()
         <label style={{ fontWeight: 'bold', minWidth: '140px' }}>Dealer Access Manager :</label>
         <input type="text" value={dealershipManager} maxLength={30} onChange={(e) => setDealershipManager(e.target.value)} style={inputStyle} />
       </div>
-
+{/* 
       <div style={{ marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '4px' }}>
         <label style={{ fontWeight: 'bold', minWidth: '140px' }}>Dealer Access Manager Contact:</label>
         <input type="text" inputMode="numeric" maxLength={10} value={dealershipPhone} onChange={(e) => setDealershipPhone(e.target.value.replace(/\D/g, ''))} style={inputStyle} />
-      </div>
+      </div> */}
 
       <div style={{ display: 'flex', alignItems: 'flex-start', gap: '4px' }}>
         <label style={{ fontWeight: 'bold', minWidth: '140px', marginTop: '6px' }}>Dealer Address :</label>
@@ -1434,30 +1394,24 @@ addTwoColumnDetail('Thread Color', textColorName, 'Quantity', numSets.toString()
   </div>
 </div>
 
-        {/* Download Button */}
-        <div style={{ 
-          marginTop: '30px',
-          textAlign: 'center',
-          borderTop: '2px solid #e0e0e0',
-          paddingTop: '20px'
-        }}>
-          <button
-            type="button"
-            onClick={handleDownloadOrder}
-            style={{
-              padding: '12px 30px',
-              backgroundColor: '#ec891f',
-              color: '#fff',
-              border: 'none',
-              borderRadius: '6px',
-              cursor: 'pointer',
-              fontSize: '16px',
-              fontWeight: 'bold'
-            }}
-          >
-            Download Invoice
-          </button>
-        </div>
+   {/* Download Button */}
+<div style={{ 
+  marginTop: '30px',
+  textAlign: 'center',
+  borderTop: '2px solid #e0e0e0',
+  paddingTop: '20px'
+}}>
+  <button
+    type="button"
+    onClick={handleDownloadOrder}
+    className="custom-button sliding-fill"
+  >
+    Download Invoice
+  </button>
+</div>
+
+
+
       </div>
     </div>
   );
@@ -1516,7 +1470,7 @@ const App = () => {
 
   const getImagePath = () => {
     if (!selectedVehicleModel || !selectedAccessory || !selectedSeatView) {
-      return '/EventDayWebsiteSliderBanner-778x450-2.png';
+      return '/The new Mahindra Logo has been unveiled.png';
     }
     
     return `/models/${selectedVehicleModel}/${selectedSeatView}/${selectedAccessory}.png`;
@@ -1675,7 +1629,7 @@ const handleContinue = async () => {
     
     try {
       const canvas = await html2canvas(orderFormRef.current, {
-        scale: 2,
+        scale: 3,
         useCORS: true,
         allowTaint: true,
         backgroundColor: null
@@ -1766,257 +1720,180 @@ const handleContinue = async () => {
     <div className="app-container">
       {preloadSelectedFont()}
       
-      <div className="left-panel">
-     <h3 style={{ fontFamily: 'Georgia, serif' }}>PERSONALISED ACCESSORIES</h3>
-<p style={{ fontFamily: 'Georgia, serif', marginTop:'-20px' }}>
-  Showcase your unique style by personalizing your accessory with elegantly embroidered lettering in your preferred font.
-</p>
+<div className="left-panel">
+  <h3 style={{ fontFamily: '"Exo 2", sans-serif' }}>PERSONALISED ACCESSORIES</h3>
+  <p style={{ fontFamily: '"Exo 2", sans-serif', marginTop: '-20px' }}>
+    Showcase your unique style by personalizing your accessory with elegantly embroidered lettering in your preferred font.
+  </p>
 
-
-{/* //drop down code  */}
-
-<>
-{/* Vehicle Model */}
-<label style={{ fontFamily: 'Georgia, serif' }}>Vehicle Model</label>
-<select
-  value={selectedVehicleModel}
-  onChange={e => setSelectedVehicleModel(e.target.value)}
-  style={{ fontFamily: 'Georgia, serif' }} // ✅ Selected text in Georgia
->
-  <option
-    value=""
-    disabled
-    style={{ fontFamily: 'Georgia, serif', fontStyle: 'normal' }} // ✅ Placeholder text in Georgia
+  {/* Vehicle Model */}
+  <label style={{ fontFamily: '"Exo 2", sans-serif' }}>Vehicle Model</label>
+  <select
+    value={selectedVehicleModel}
+    onChange={e => setSelectedVehicleModel(e.target.value)}
+    style={{ fontFamily: '"Exo 2", sans-serif' }}
   >
-    Select a Vehicle Model
-  </option>
-  {vehicleModels.map(model => (
-    <option
-      key={model}
-      value={model}
-      style={{ fontFamily: 'Georgia, serif' }} // ✅ Option text in Georgia
-    >
-      {model}
+    <option value="" disabled style={{ fontFamily: '"Exo 2", sans-serif' }}>
+      Select a Vehicle Model
     </option>
-  ))}
-</select>
+    {vehicleModels.map(model => (
+      <option key={model} value={model} style={{ fontFamily: '"Exo 2", sans-serif' }}>
+        {model}
+      </option>
+    ))}
+  </select>
 
-{/* Select Row */}
-<label style={{ fontFamily: 'Georgia, serif' }}>Select Row</label>
-<select
-  value={selectedSeatView}
-  onChange={e => setSelectedSeatView(e.target.value)}
-  disabled={!selectedVehicleModel}
-  style={{ fontFamily: 'Georgia, serif' }} // ✅ Ensures selected value uses Georgia
->
-  <option
-    value=""
-    disabled
-    style={{ fontFamily: 'Georgia, serif', fontStyle: 'normal' }} // ✅ Placeholder text in Georgia
+  {/* Select Row */}
+  <label style={{ fontFamily: '"Exo 2", sans-serif' }}>Select Row</label>
+  <select
+    value={selectedSeatView}
+    onChange={e => setSelectedSeatView(e.target.value)}
+    disabled={!selectedVehicleModel}
+    style={{ fontFamily: '"Exo 2", sans-serif' }}
   >
-    Select Row
-  </option>
-  {seatViews.map(view => (
-    <option
-      key={view}
-      value={view}
-      style={{ fontFamily: 'Georgia, serif' }} // ✅ Each option in Georgia
-    >
-      {view}
+    <option value="" disabled style={{ fontFamily: '"Exo 2", sans-serif' }}>
+      Select Row
     </option>
-  ))}
-</select>
+    {seatViews.map(view => (
+      <option key={view} value={view} style={{ fontFamily: '"Exo 2", sans-serif' }}>
+        {view}
+      </option>
+    ))}
+  </select>
 
-
-{/* Kit Type */}
-<label style={{ fontFamily: 'Georgia, serif' }}>Kit Type</label>
-<select
-  value={selectedAccessory}
-  onChange={e => setSelectedAccessory(e.target.value)}
-  disabled={!selectedVehicleModel || !selectedSeatView}
-  style={{ fontFamily: 'Georgia, serif' }} // ✅ Whole select defaults to Georgia
->
-  <option
-    value=""
-    disabled
-    style={{ fontFamily: 'Georgia, serif', fontStyle: 'normal' }} // ✅ Placeholder in Georgia
+  {/* Kit Type */}
+  <label style={{ fontFamily: '"Exo 2", sans-serif' }}>Kit Type</label>
+  <select
+    value={selectedAccessory}
+    onChange={e => setSelectedAccessory(e.target.value)}
+    disabled={!selectedVehicleModel || !selectedSeatView}
+    style={{ fontFamily: '"Exo 2", sans-serif' }}
   >
-    Select an Accessory
-  </option>
-  {accessories.map(acc => (
-    <option
-      key={acc}
-      value={acc}
-      style={{ fontFamily: 'Georgia, serif' }} // ✅ Options in Georgia
-    >
-      {acc}
+    <option value="" disabled style={{ fontFamily: '"Exo 2", sans-serif' }}>
+      Select an Accessory
     </option>
-  ))}
-</select>
+    {accessories.map(acc => (
+      <option key={acc} value={acc} style={{ fontFamily: '"Exo 2", sans-serif' }}>
+        {acc}
+      </option>
+    ))}
+  </select>
 
-
-{/* Personalised Content */}
-<label style={{ fontFamily: 'Georgia, serif' }}>Personalised Content</label>
-        {/* <label>Personalised Content</label> */}
-        <input
-          type="text"
-          maxLength={7}
-          value={personalisedContent}
-          onChange={e => setPersonalisedContent(e.target.value)}
-          style={{ fontFamily: selectedFont }}
-        />
-{/* Font Style */}
-{/* Font Style */}
-<label style={{ fontFamily: 'Georgia, serif' }}>Font Style</label>
-<select
-  value={selectedFont}
-  onChange={e => setSelectedFont(e.target.value)}
-  style={{ fontFamily: selectedFont || 'Georgia, serif' }} // ✅ If nothing selected, Georgia
->
-  <option
-    value=""
-    disabled
-    style={{ fontFamily: 'Georgia, serif', fontStyle: 'normal' }} // ✅ Placeholder in Georgia
-  >
-    Select a Font Style
-  </option>
-  {fontStyles.map(font => (
-    <option
-      key={font}
-      value={font}
-      style={{ fontFamily: font, fontStyle: 'italic' }} // ✅ Each font shown as actual
-    >
-      {font}
-    </option>
-  ))}
-</select>
-
-
-{/* Text Color */}
-<label style={{ fontFamily: 'Georgia, serif' }}>Select Text Color</label>
-<div className="color-palette">
-  {textColors.map(color => (
-    <div
-      key={color.value}
-      className={`color-swatch ${selectedColor === color.value ? 'selected' : ''}`} // ✅ Fixed template literal
-      style={{ 
-        backgroundColor: color.value,
-        width: '25px',
-        height: '25px',
-        borderRadius: '50%',
-        margin: '8px 5px 5px 0',
-        cursor: 'pointer',
-        display: 'inline-block',
-        border: selectedColor === color.value ? '2px solid black' : '1px solid #ddd'
-      }}
-      onClick={() => setSelectedColor(color.value)}
-      title={color.name}
-    />
-  ))}
-</div>
-
-
-{/* No. of Sets */}
-<label style={{ fontFamily: 'Georgia, serif' }}>No. of Sets</label>
-<div style={{ position: 'relative', width: '100px' }}>
+  {/* Personalised Content */}
+  <label style={{ fontFamily: '"Exo 2", sans-serif' }}>Personalised Content</label>
   <input
-    type="number"
-    min={1}
-    value={numSets}
-    onChange={e => setNumSets(Math.max(1, parseInt(e.target.value) || 1))}
-    style={{
-      width: '100%',
-      padding: '5px 25px',
-      textAlign: 'center',
-      MozAppearance: 'textfield',
-      fontFamily: 'Georgia, serif' // ✅ Apply Georgia
-    }}
+    type="text"
+    maxLength={7}
+    value={personalisedContent}
+    onChange={e => setPersonalisedContent(e.target.value)}
+    style={{ fontFamily: selectedFont }}
   />
-  <span
-    style={{
-      position: 'absolute',
-      left: '5px',
-      top: '55%',
-      transform: 'translateY(-50%)',
-      cursor: 'pointer',
-      fontWeight: 'bold',
-      fontFamily: 'Georgia, serif'
-    }}
-    onClick={() => setNumSets(prev => Math.max(1, prev - 1))}
-  >
-    −
-  </span>
-  <span
-    style={{
-      position: 'absolute',
-      right: '-47px',
-      top: '55%',
-      transform: 'translateY(-50%)',
-      cursor: 'pointer',
-      fontWeight: 'bold',
-      fontFamily: 'Georgia, serif'
-    }}
-    onClick={() => setNumSets(prev => prev + 1)}
-  >
-    +
-  </span>
-</div>
 
-        
- <div className="button-group" style={{ 
-  display: 'flex', 
-  gap: '15px',
-  marginTop: '20px'
-}}>
-  <button 
-    className="download-btn" 
-    onClick={handleDownload} 
+  {/* Font Style */}
+  <label style={{ fontFamily: '"Exo 2", sans-serif' }}>Font Style</label>
+  <select
+    value={selectedFont}
+    onChange={e => setSelectedFont(e.target.value)}
+    style={{ fontFamily: selectedFont || '"Exo 2", sans-serif' }}
+  >
+    <option value="" disabled style={{ fontFamily: '"Exo 2", sans-serif' }}>
+      Select a Font Style
+    </option>
+    {fontStyles.map(font => (
+      <option key={font} value={font} style={{ fontFamily: font, fontStyle: 'italic' }}>
+        {font}
+      </option>
+    ))}
+  </select>
+
+  {/* Text Color */}
+  <label style={{ fontFamily: '"Exo 2", sans-serif' }}>Select Text Color</label>
+  <div className="color-palette">
+    {textColors.map(color => (
+      <div
+        key={color.value}
+        className={`color-swatch ${selectedColor === color.value ? 'selected' : ''}`}
+        style={{
+          backgroundColor: color.value,
+          width: '25px',
+          height: '25px',
+          borderRadius: '50%',
+          margin: '8px 5px 5px 0',
+          cursor: 'pointer',
+          display: 'inline-block',
+          border: selectedColor === color.value ? '2px solid black' : '1px solid #ddd'
+        }}
+        onClick={() => setSelectedColor(color.value)}
+        title={color.name}
+      />
+    ))}
+  </div>
+
+  {/* No. of Sets */}
+  <label style={{ fontFamily: '"Exo 2", sans-serif' }}>No. of Sets</label>
+  <div style={{ position: 'relative', width: '100px' }}>
+    <input
+      type="number"
+      min={1}
+      value={numSets}
+      onChange={e => setNumSets(Math.max(1, parseInt(e.target.value) || 1))}
+      style={{
+        width: '100%',
+        padding: '5px 25px',
+        textAlign: 'center',
+        MozAppearance: 'textfield',
+        fontFamily: '"Exo 2", sans-serif'
+      }}
+    />
+    <span
+      style={{
+        position: 'absolute',
+        left: '5px',
+        top: '55%',
+        transform: 'translateY(-50%)',
+        cursor: 'pointer',
+        fontWeight: 'bold',
+        fontFamily: '"Exo 2", sans-serif'
+      }}
+      onClick={() => setNumSets(prev => Math.max(1, prev - 1))}
+    >
+      −
+    </span>
+    <span
+      style={{
+        position: 'absolute',
+        right: '-47px',
+        top: '55%',
+        transform: 'translateY(-50%)',
+        cursor: 'pointer',
+        fontWeight: 'bold',
+        fontFamily: '"Exo 2", sans-serif'
+      }}
+      onClick={() => setNumSets(prev => prev + 1)}
+    >
+      +
+    </span>
+  </div>
+
+  {/* Buttons */}
+<div className="button-group" style={{ display: 'flex', gap: '15px', marginTop: '20px' }}>
+  <button
+    className="custom-button sliding-fill"
+    onClick={handleDownload}
     disabled={isImageLoading}
-    style={{
-      flex: 1,
-      padding: '12px',
-      backgroundColor: '#ffb12c',
-      color: 'white',
-      border: 'none',
-      borderRadius: '4px',
-           fontFamily: 'Georgia, serif',
-      cursor: 'pointer',
-      fontSize: '16px',
-      fontWeight: '500',
-      transition: 'background-color 0.3s',
-      ':hover': {
-        backgroundColor: '#004a6e'
-      }
-    }}
   >
     {isImageLoading ? 'Generating PDF...' : 'Download'}
   </button>
-  <button 
-    className="continue-btn"
+
+  <button
+    className="custom-button sliding-fill"
     onClick={handleContinue}
-    style={{
-      flex: 1,
-      padding: '12px',
-      backgroundColor: '#ffb12c',
-      color: 'white',
-      border: 'none',
-      borderRadius: '4px',
-      cursor: 'pointer',
-           fontFamily: 'Georgia, serif',
-      fontSize: '16px',
-      fontWeight: '500',
-      transition: 'background-color 0.3s',
-      ':hover': {
-        backgroundColor: '#3e8e41'
-      }
-    }}
   >
     Continue
   </button>
 </div>
-    </>
-      </div>
-  
+</div>
+
 
       <div className="right-panel">
         <div className="image-container" ref={imageRef} style={{ position: 'relative' }}>
